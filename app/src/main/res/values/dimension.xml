@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小 基数1.8 -->
+    <dimen name="text_size_8">4sp</dimen>
+    <dimen name="text_size_9">5sp</dimen>
+    <dimen name="text_size_10">5sp</dimen>
+    <dimen name="text_size_11">6sp</dimen>
+    <dimen name="text_size_12">6sp</dimen>
+    <dimen name="text_size_13">7sp</dimen>
+    <dimen name="text_size_14">7sp</dimen>
+    <dimen name="text_size_15">8sp</dimen>
+    <dimen name="text_size_16">8sp</dimen>
+    <dimen name="text_size_17">9sp</dimen>
+    <dimen name="text_size_18">10sp</dimen>
+    <dimen name="text_size_19">10sp</dimen>
+    <dimen name="text_size_20">11sp</dimen>
+    <dimen name="text_size_21">11sp</dimen>
+    <dimen name="text_size_22">12sp</dimen>
+    <dimen name="text_size_23">12sp</dimen>
+    <dimen name="text_size_24">13sp</dimen>
+    <dimen name="text_size_25">13sp</dimen>
+    <dimen name="text_size_26">14sp</dimen>
+    <dimen name="text_size_27">15sp</dimen>
+    <dimen name="text_size_28">15sp</dimen>
+    <dimen name="text_size_29">16sp</dimen>
+    <dimen name="text_size_30">16sp</dimen>
+    <dimen name="text_size_31">17sp</dimen>
+    <dimen name="text_size_32">17sp</dimen>
+    <dimen name="text_size_33">18sp</dimen>
+    <dimen name="text_size_34">18sp</dimen>
+    <dimen name="text_size_35">19sp</dimen>
+    <dimen name="text_size_36">20sp</dimen>
+    <dimen name="text_size_37">20sp</dimen>
+    <dimen name="text_size_38">21sp</dimen>
+    <dimen name="text_size_39">21sp</dimen>
+    <dimen name="text_size_40">22sp</dimen>
+    <dimen name="text_size_46">25sp</dimen>
+    <dimen name="text_size_50">27sp</dimen>
+    <dimen name="text_size_60">33sp</dimen>
+    <dimen name="text_size_66">36sp</dimen>
+    <dimen name="text_size_70">38sp</dimen>
+    <dimen name="text_size_80">44sp</dimen>
+</resources>

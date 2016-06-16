@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/xb_leftmenu_bg">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_160"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/personhead_img"
+            android:layout_width="@dimen/px_136"
+            android:layout_height="@dimen/px_136"
+            android:src="@drawable/nologin"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFFFFFF"/>
+        <TextView
+            android:id="@+id/personhead_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_36"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/px_32"
+            android:text="昵称"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/leftmenu_mypet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_110"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_mypet"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的宠物"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/px_14"
+            android:layout_height="@dimen/px_27"
+            android:src="@drawable/xb_leftmenu_rightarrow"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/leftmenu_mytrain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_110"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_cultivate"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的课程"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/px_14"
+            android:layout_height="@dimen/px_27"
+            android:src="@drawable/xb_leftmenu_rightarrow"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/leftmenu_shopcenter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_110"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_shop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物中心"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/px_14"
+            android:layout_height="@dimen/px_27"
+            android:src="@drawable/xb_leftmenu_rightarrow"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/leftmenu_shopcar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_110"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_shopcar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物车"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/px_14"
+            android:layout_height="@dimen/px_27"
+            android:src="@drawable/xb_leftmenu_rightarrow"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/leftmenu_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_110"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_set"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/px_14"
+            android:layout_height="@dimen/px_27"
+            android:src="@drawable/xb_leftmenu_rightarrow"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/leftmenu_loginout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:paddingLeft="@dimen/px_60"
+        android:paddingRight="@dimen/px_50"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="@dimen/px_32"
+            android:layout_height="@dimen/px_37"
+            android:src="@drawable/xb_leftmenu_loginout"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"
+            android:textSize="@dimen/text_size_30"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/px_36"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

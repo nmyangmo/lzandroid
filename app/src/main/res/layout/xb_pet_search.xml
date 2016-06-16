@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@drawable/lz_border_bottom_bfbfbf"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/px_80"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/search_back"
+                android:layout_width="@dimen/px_40"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/lz_arrow_left_blue"/>
+        </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/xb_search_bg"
+                android:text="搜索你想找的狗狗"
+                android:textColor="@color/textcolor666"
+                android:paddingLeft="@dimen/px_100"
+                android:inputType="text"
+                android:textSize="@dimen/text_size_24"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:clickable="true"
+                android:background="@drawable/xb_button_bg_whiteblake"
+                android:text="搜索"
+                android:textColor="@color/main"
+                android:textSize="@dimen/text_size_24"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mainbg"
+        android:layout_marginTop="@dimen/topbar_height">
+        <com.lazy.android.basefunc.LZHtml.LZWebView
+            android:id="@+id/search_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

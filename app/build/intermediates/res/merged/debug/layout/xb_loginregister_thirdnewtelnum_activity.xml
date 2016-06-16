@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/lz_common_head"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/topbar_height"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/xb_border_white_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/px_30"
+            android:paddingRight="@dimen/px_30">
+
+            <ImageView
+                android:layout_width="@dimen/px_30"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/xb_register_telnum"/>
+
+            <EditText
+                android:id="@+id/thirdnewnum_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_38"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入手机号"
+                android:textColorHint="@color/hinttext"
+                android:textSize="@dimen/text_size_32"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/xb_border_white_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/px_30"
+            android:paddingRight="@dimen/px_30">
+
+            <ImageView
+                android:layout_width="@dimen/px_30"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/xb_register_smscode"/>
+
+            <EditText
+                android:id="@+id/thirdnewnum_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_38"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:textColorHint="@color/hinttext"
+                android:textSize="@dimen/text_size_32"/>
+            
+            <Button
+                android:id="@+id/thirdnewnum_getcode"
+                android:layout_width="@dimen/px_180"
+                android:layout_height="@dimen/px_66"
+                android:background="@drawable/xb_register_smscodebg"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textSize="@dimen/text_size_26"
+                android:textColor="@color/bluetext"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:background="@drawable/xb_border_white_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/px_30"
+            android:paddingRight="@dimen/px_30">
+
+            <ImageView
+                android:layout_width="@dimen/px_30"
+                android:layout_height="@dimen/px_40"
+                android:src="@drawable/xb_register_password"/>
+
+            <EditText
+                android:id="@+id/thirdnewnum_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_38"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入密码"
+                android:textColorHint="@color/hinttext"
+                android:textSize="@dimen/text_size_32"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/thirdnewnum_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_86"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginTop="@dimen/px_40"
+            android:clickable="true"
+            android:background="@drawable/xb_button_bg"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_36"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

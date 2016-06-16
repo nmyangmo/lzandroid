@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="@color/mainbg"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_500"
+            android:orientation="vertical"
+            android:background="@drawable/xb_petinfo_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/topbar_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/px_25"
+                    android:layout_height="@dimen/px_40"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:src="@drawable/lz_arrow_left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/common_headleft_headimg"
+                    android:layout_width="@dimen/px_170"
+                    android:layout_height="@dimen/px_170"
+                    android:src="@drawable/xb_headimage"
+                    android:layout_gravity="center"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FFFFFFFF"/>
+
+                <TextView
+                    android:layout_width="@dimen/px_200"
+                    android:layout_height="@dimen/px_80"
+                    android:gravity="center"
+                    android:text="昵称"
+                    android:textSize="@dimen/text_size_36"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/px_30"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="陪伴:1天"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_26"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_20"
+                android:layout_marginBottom="@dimen/px_20"
+                android:gravity="right">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/px_20"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:text="编辑资料"
+                    android:textSize="@dimen/text_size_28"
+                    android:textColor="@color/white"
+                    android:background="@drawable/xb_personset_edit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="动态"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/bluetext"/>
+
+            <LinearLayout
+                android:layout_width="@dimen/px2"
+                android:layout_height="match_parent"
+                android:background="#dddddd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="资料"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"/>
+
+
+        </LinearLayout>
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_40"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="宠物名称:"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_32"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="贝贝"
+                    android:paddingRight="@dimen/px_30"
+                    android:textColor="@color/textcolor999"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textSize="@dimen/text_size_32"/>
+            </LinearLayout>
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="性别:"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_32"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="GG"
+                    android:paddingRight="@dimen/px_30"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"/>
+            </LinearLayout>
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="品种:"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_32"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="金毛"
+                    android:paddingRight="@dimen/px_30"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"/>
+            </LinearLayout>
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="年龄:"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_32"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="一个月"
+                    android:paddingRight="@dimen/px_30"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"/>
+            </LinearLayout>
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="到家时间:"
+                    android:textColor="@color/textcolor333"
+                    android:textSize="@dimen/text_size_32"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="2016-1-25"
+                    android:paddingRight="@dimen/px_30"
+                    android:background="@null"
+                    android:editable="false"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"/>
+            </LinearLayout>
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:text="保存"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginTop="@dimen/px_30"
+            android:textColor="@color/white"
+
+            android:textSize="@dimen/text_size_36"
+            android:background="@drawable/xb_button_bg"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_50"/>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/lz_common_head"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/topbar_height"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_270"
+            android:background="@color/mainbg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/common_headleft_headimg"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="@dimen/px_131"
+                android:layout_height="@dimen/px_131"
+                android:src="@drawable/xb_headimage"
+                app:civ_border_color="#FFFFFFFF"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_20"
+                android:text="点击添加宠物头像"
+                android:textColor="@color/textcolor999"
+                android:textSize="@dimen/text_size_26"/>
+        </LinearLayout>
+
+
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="宠物名称:"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginRight="@dimen/px_30"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="设置宠物名称"
+                android:textColorHint="@color/textcolor999"
+                android:textSize="@dimen/text_size_32"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="宠物性别:"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginRight="@dimen/px_30"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/px_10"
+                    android:src="@drawable/xb_sex_middle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"
+                    android:layout_marginRight="@dimen/px_10"
+                    android:text="MM"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/px_10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/px_10"
+                    android:src="@drawable/xb_sex_middle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_32"
+                    android:layout_marginRight="@dimen/px_10"
+                    android:text="GG"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="宠物品种:"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginRight="@dimen/px_30"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="选择宠物品种"
+                android:textColorHint="@color/textcolor999"
+                android:textSize="@dimen/text_size_32"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="宠物生日:"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginRight="@dimen/px_30"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="选择宠物生日"
+                android:textColorHint="@color/textcolor999"
+                android:textSize="@dimen/text_size_32"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="到家时间:"
+                android:textSize="@dimen/text_size_32"
+                android:textColor="@color/textcolor333"
+                android:layout_marginLeft="@dimen/px_30"
+                android:layout_marginRight="@dimen/px_30"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="选择宠物到家时间"
+                android:textColorHint="@color/textcolor999"
+                android:textSize="@dimen/text_size_32"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/lz_common_line_dbdbdb"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_88"
+            android:text="保存"
+            android:textSize="@dimen/text_size_36"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/px_30"
+            android:background="@drawable/xb_button_bg"
+            android:layout_marginRight="@dimen/px_30"
+            android:layout_marginLeft="@dimen/px_30"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

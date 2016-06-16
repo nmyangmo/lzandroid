@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <LinearLayout android:id="@+id/crumbs_takephoto_layout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lz_border_bottom"
+        android:layout_marginLeft="@dimen/px_40"
+        android:layout_marginRight="@dimen/px_40"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/px_20"
+        android:paddingTop="@dimen/px_20">
+
+
+        <TextView
+            android:id="@+id/crumbs_picker_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_60"
+            android:gravity="center_vertical"
+            android:text="选择器标题"
+            android:background="@drawable/lz_border_bottom"/>
+
+        <com.lazy.android.baseui.common.WheelView
+            android:id="@+id/crumbs_picker_wheel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/crumbs_pickersex_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_80"
+            android:text="确定"
+            android:background="@drawable/xb_button_bg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_28"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

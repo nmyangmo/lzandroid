@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mainbg"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/lz_common_head"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/topbar_height"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_354"
+            android:background="@drawable/xb_shopcenter_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/common_head_headimg"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="@dimen/px_131"
+                android:layout_height="@dimen/px_131"
+                android:src="@drawable/xb_headimage"
+                app:civ_border_color="#FFFFFFFF"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/common_head_headtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_20"
+                android:text="萌萌"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_36"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/px_40">
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:id="@+id/shopcenter_all"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/px_50"
+                    android:layout_height="@dimen/px_50"
+                    android:src="@drawable/xb_shopcenter_myorder"
+                    android:layout_marginLeft="@dimen/px_30"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我的订单"
+                    android:textSize="@dimen/text_size_32"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:layout_marginRight="@dimen/px_30"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看全部订单"
+                    android:textColor="@color/textcolor999"
+                    android:textSize="@dimen/text_size_28"
+                    android:background="@null"/>
+                <ImageView
+                    android:layout_width="@dimen/px_25"
+                    android:layout_height="@dimen/px_35"
+                    android:src="@drawable/lz_arrow_right_black"
+                    android:layout_marginLeft="@dimen/px_20"
+                    android:layout_marginRight="@dimen/px_20"/>
+            </LinearLayout>
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_131"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/shopcenter_waitpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/px_45"
+                        android:layout_height="@dimen/px_45"
+                        android:src="@drawable/xb_shopcenter_waitpay"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待付款"
+                        android:layout_marginTop="@dimen/px_20"
+                        android:textColor="@color/textcolor999"
+                        android:textSize="@dimen/text_size_26"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/shopcenter_waitsend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/px_45"
+                        android:layout_height="@dimen/px_45"
+                        android:src="@drawable/xb_shopcenter_waitsend"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待发货"
+                        android:layout_marginTop="@dimen/px_20"
+                        android:textColor="@color/textcolor999"
+                        android:textSize="@dimen/text_size_26"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/shopcenter_waitreceive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/px_45"
+                        android:layout_height="@dimen/px_45"
+                        android:src="@drawable/xb_shopcenter_waittake"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待收货"
+                        android:layout_marginTop="@dimen/px_20"
+                        android:textColor="@color/textcolor999"
+                        android:textSize="@dimen/text_size_26"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/shopcenter_waitcomment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/px_45"
+                        android:layout_height="@dimen/px_45"
+                        android:src="@drawable/xb_shopcenter_waitcomment"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待评价"
+                        android:layout_marginTop="@dimen/px_20"
+                        android:textColor="@color/textcolor999"
+                        android:textSize="@dimen/text_size_26"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/px_40"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:id="@+id/shopcenter_shopcar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/px_50"
+                    android:layout_height="@dimen/px_50"
+                    android:src="@drawable/xb_shopcenter_shopcar"
+                    android:layout_marginLeft="@dimen/px_30"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购物车"
+                    android:textSize="@dimen/text_size_32"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:layout_marginRight="@dimen/px_30"/>
+            </LinearLayout>
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+            <LinearLayout
+                android:id="@+id/shopcenter_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/px_50"
+                    android:layout_height="@dimen/px_50"
+                    android:src="@drawable/xb_shopcenter_address"
+                    android:layout_marginLeft="@dimen/px_30"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收货地址"
+                    android:textSize="@dimen/text_size_32"
+                    android:textColor="@color/textcolor333"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:layout_marginRight="@dimen/px_30"/>
+            </LinearLayout>
+
+            <include layout="@layout/lz_common_line_dbdbdb"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

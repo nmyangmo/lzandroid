@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/sanjiao_rotate_anim.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/sanjiao_rotate_anim.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/gf_flip_horizontal_out.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/anim/gf_flip_horizontal_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/focus_animation.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/lzAndroid_bak/alib_WXLikeVideoRecorderLib/unspecified/res/anim/focus_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/sanjiao_back_anim.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/sanjiao_back_anim.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/custom_dialog_anim_show.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/custom_dialog_anim_show.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/push_bottom_in.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/indicator_animation.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/lzAndroid_bak/alib_WXLikeVideoRecorderLib/unspecified/res/anim/indicator_animation.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/lz_go_down.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/lz_go_down.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/splash_in.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/splash_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/lz_alpha_out.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/lz_alpha_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/push_bottom_out.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/gf_flip_horizontal_in.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/anim/gf_flip_horizontal_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/custom_dialog_anim_dismiss.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/custom_dialog_anim_dismiss.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/progressbar.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/progressbar.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/lz_alpha_in.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/lz_alpha_in.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/lz_go_up.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/lz_go_up.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/anim/progressbar_loading.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/anim/progressbar_loading.xml"
+    }
+]

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/lz_common_head"/>
+    </LinearLayout>
+
+
+    <com.lazy.android.basefunc.LZHtml.LZWebView
+        android:id="@+id/index_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/topbar_height"
+        android:layout_marginBottom="@dimen/px_98"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_98"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/xb_border_top">
+
+        <LinearLayout
+            android:id="@+id/index_linear_head"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/index_linear_head_image"
+                android:layout_width="@dimen/px_44"
+                android:layout_height="@dimen/px_45"
+                android:src="@drawable/xb_mainb_index_on"/>
+            <TextView
+                android:id="@+id/index_linear_head_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_5"
+                android:text="足迹"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@color/main"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/index_linear_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/index_linear_pet_image"
+                android:layout_width="@dimen/px_44"
+                android:layout_height="@dimen/px_45"
+                android:src="@drawable/xb_mainb_dogs_off"/>
+            <TextView
+                android:id="@+id/index_linear_pet_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_5"
+                android:text="幼犬"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@color/textcolor666"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/index_linear_cultivate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/index_linear_cultivate_image"
+                android:layout_width="@dimen/px_44"
+                android:layout_height="@dimen/px_45"
+                android:src="@drawable/xb_mainb_cultivate_off"/>
+            <TextView
+                android:id="@+id/index_linear_cultivate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_5"
+                android:text="培训"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@color/textcolor666"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/index_linear_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/index_linear_shop_image"
+                android:layout_width="@dimen/px_44"
+                android:layout_height="@dimen/px_45"
+                android:src="@drawable/xb_mainb_shop_off"/>
+            <TextView
+                android:id="@+id/index_linear_shop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_5"
+                android:text="商城"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@color/textcolor666"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
