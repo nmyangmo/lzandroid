@@ -32,7 +32,7 @@ import com.lazy.android.R;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.basefunc.storage.FileHelper;
 import com.lazy.android.basefunc.storage.MediaStoreHelper;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -664,7 +664,7 @@ public final class UtilsGraphic {
 	}
 	
 	public static void saveImage(Context context, String fileName, View allView, SaveImageCallBack callback){
-		new SaveImageTask(callback).execute((LZBaseActivityI)context, fileName, allView);
+		new SaveImageTask(callback).execute((LZBaseActivity)context, fileName, allView);
 	}
 	
 	public static class SaveImageTask extends AsyncTask<Object, Void, Boolean> {

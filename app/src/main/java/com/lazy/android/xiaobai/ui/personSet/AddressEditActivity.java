@@ -3,7 +3,7 @@ package com.lazy.android.xiaobai.ui.personSet;
 import android.os.Bundle;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 
@@ -12,7 +12,7 @@ import org.xutils.view.annotation.ContentView;
  */
 
 @ContentView(R.layout.xb_personset_addressedit_activity)
-public class AddressEditActivity extends LZBaseActivityI {
+public class AddressEditActivity extends LZBaseActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

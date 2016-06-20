@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.data.WebviewIntentData;
 import com.lazy.android.xiaobai.pay.XiaobaiAlipayActivity;
 import com.lazy.android.xiaobai.pay.XiaobaiWxpayActivity;
@@ -22,7 +22,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by chenglei on 16/3/11.
  */
 @ContentView(R.layout.xb_pay_paytype_activity)
-public class PayTypeActivity extends LZBaseActivityI {
+public class PayTypeActivity extends LZBaseActivity {
 
 	private Boolean payClick = false;
 

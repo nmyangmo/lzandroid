@@ -9,7 +9,7 @@ import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsClear;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.activity.EditPasswordActivity;
 import com.lazy.android.xiaobai.ui.register.activity.NewTelnumActivity;
 
@@ -21,7 +21,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by chenglei on 16/3/14.
  */
 @ContentView(R.layout.xb_setindex_activity)
-public class SetIndexActivity extends LZBaseActivityI {
+public class SetIndexActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.setindex_telnum_edit) private LinearLayout setindex_telnum_edit;
 	@ViewInject(R.id.setindex_pwd_edit) private LinearLayout setindex_pwd_edit;

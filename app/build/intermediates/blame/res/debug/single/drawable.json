@@ -4,10 +4,6 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_main_bottom.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/appico.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/appico.png"
-    },
-    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_07.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_07.png"
     },
@@ -32,6 +28,10 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_bottom_bfbfbf.xml"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_down_arrow.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/pulltorefresh_down_arrow.png"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_arrow_left.png"
     },
@@ -42,6 +42,10 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_border_white_top.xml",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_white_top.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_up_arrow.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/pulltorefresh_up_arrow.png"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_toast_bg_bak.9.png",
@@ -74,6 +78,10 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/bg_gf_crop_texture.xml",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable/bg_gf_crop_texture.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/logo.png"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left_blue.png",

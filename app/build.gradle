@@ -77,6 +77,10 @@ dependencies {
 //    按住拍
     compile 'com.yqritc:android-scalablevideoview:1.0.1'
 
+//    友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+
+
 
 
 //    testCompile 'junit:junit:4.10'

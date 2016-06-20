@@ -3,7 +3,7 @@ package com.lazy.android.xiaobai.ui.pay;
 import android.os.Bundle;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 
@@ -11,7 +11,7 @@ import org.xutils.view.annotation.ContentView;
  * Created by chenglei on 16/3/14.
  */
 @ContentView(R.layout.xb_shopcar)
-public class ShopCarActivity extends LZBaseActivityI {
+public class ShopCarActivity extends LZBaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

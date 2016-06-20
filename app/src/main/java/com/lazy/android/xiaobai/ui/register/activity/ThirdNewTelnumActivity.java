@@ -9,7 +9,7 @@ import com.lazy.android.config.ConfigProtocolType;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.protocol.GetsmsProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.NewTelnumProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.ThirdNewTelnumProtocol;
@@ -23,7 +23,7 @@ import org.xutils.view.annotation.ViewInject;
  */
 
 @ContentView(R.layout.xb_loginregister_thirdnewtelnum_activity)
-public class ThirdNewTelnumActivity extends LZBaseActivityI {
+public class ThirdNewTelnumActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.thirdnewnum_tel) EditText thirdnewnum_tel;
 	@ViewInject(R.id.thirdnewnum_code) EditText thirdnewnum_code;

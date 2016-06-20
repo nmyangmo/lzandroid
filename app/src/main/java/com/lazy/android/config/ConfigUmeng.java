@@ -10,11 +10,11 @@ public class ConfigUmeng {
 	public static void initUmeng(){
 ////		各个平台的配置
 		//微信 appid appsecret
-		PlatformConfig.setWeixin("wx9e5ba61fef2f3da5", "a51078d16fc653b678d7208fc70efd59");
+		PlatformConfig.setWeixin("", "");
 		//新浪微博 appkey appsecret
-		PlatformConfig.setSinaWeibo("4135614408", "084d58a296a41576d96046c30ddead60");
+		PlatformConfig.setSinaWeibo("", "");
 //		// QQ和Qzone appid appkey
-		PlatformConfig.setQQZone("1104703359", "Ydmlp5q6mAwMFnlm");
+		PlatformConfig.setQQZone("", "");
 //		//支付宝 appid
 //		PlatformConfig.setAlipay("2015111700822536");
 //		//易信 appkey

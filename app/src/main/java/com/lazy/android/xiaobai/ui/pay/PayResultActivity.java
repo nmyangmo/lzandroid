@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -16,7 +16,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by chenglei on 16/3/11.
  */
 @ContentView(R.layout.xb_pay_paysult_activity)
-public class PayResultActivity extends LZBaseActivityI {
+public class PayResultActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.paysult_ico) private ImageView paysult_ico;
 	@ViewInject(R.id.paysult_text) private TextView paysult_text;

@@ -6,7 +6,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseFragmentI;
+import com.lazy.android.baseui.base.LZBaseFragment;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -16,7 +16,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by Administrator on 2016/1/15.
  */
 @ContentView(R.layout.sample_fragment_viewfragment)
-public class ViewFragment extends LZBaseFragmentI {
+public class ViewFragment extends LZBaseFragment {
 
 	@ViewInject(R.id.viewFragment_text) private TextView viewFragment_text;
 

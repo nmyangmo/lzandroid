@@ -200,7 +200,7 @@ MERGED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/a
 	android:allowBackup
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:97:9-35
 	android:icon
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:98:9-40
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:98:9-38
 	android:largeHeap
 		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] /Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/AndroidManifest.xml:20:9-33
 	android:theme
@@ -208,11 +208,17 @@ MERGED from [com.squareup.leakcanary:leakcanary-android:1.3.1] /Users/chenglei/a
 	android:name
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:96:9-73
 meta-data#UMENG_APPKEY
-ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:104:9-106:55
+ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:105:9-101
 	android:value
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:106:13-53
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:105:20-60
 	android:name
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:105:13-40
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:105:61-88
+meta-data#UMENG_CHANNEL
+ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:106:9-70
+	android:value
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:106:20-39
+	android:name
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:106:40-68
 activity#com.lazy.android.sample.SampleIndexActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:109:9-114:20
 	android:name
@@ -239,10 +245,10 @@ activity#com.lazy.android.sample.jiguang.Activity.SampleJiguangIndexActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:120:9-87
 	android:name
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:120:19-85
-activity#com.lazy.android.basefunc.LZHtml.LZHtmlActivityI
-ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:122:9-68
+activity#com.lazy.android.sample.webview.LZHtmlActivity
+ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:122:9-66
 	android:name
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:122:19-66
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:122:19-64
 activity#com.lazy.android.sample.divview.DivviewIndexActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:127:9-72
 	android:name
@@ -555,14 +561,14 @@ ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManif
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:453:13-56
 	android:name
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:451:13-67
-activity#com.lazy.android.basefunc.LZWxpay.LZWxpayActivityI
+activity#com.lazy.android.basefunc.LZWxpay.LZWxpayActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:457:9-460:58
 	android:screenOrientation
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:459:13-49
 	android:theme
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:460:13-56
 	android:name
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:458:13-62
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:458:13-61
 activity#com.lazy.android.wxapi.WXPayEntryActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:464:9-468:58
 	android:screenOrientation

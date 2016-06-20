@@ -7,7 +7,7 @@ import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.sample.xutils.adapter.FragmentAdapter;
 import com.lazy.android.sample.xutils.fragment.BitmapFragment;
 import com.lazy.android.sample.xutils.fragment.DbFragment;
@@ -24,7 +24,7 @@ import java.util.ArrayList;
  * Created by chenglei on 16/1/15.
  */
 @ContentView(R.layout.sample_xutils_activity_index)
-public class SampleXutilsIndexActivity extends LZBaseActivityI {
+public class SampleXutilsIndexActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.sample_index_viewpage) private ViewPager viewPager;
 	@ViewInject(R.id.sample_index_pagetab) private PagerTabStrip pagerTabStrip;

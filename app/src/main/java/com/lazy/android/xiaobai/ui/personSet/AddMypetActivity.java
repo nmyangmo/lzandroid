@@ -17,7 +17,7 @@ import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.basefunc.LZUtils.UtilsDate;
 import com.lazy.android.basefunc.LZUtils.UtilsDownload;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.baseui.common.DateTimePickDialog;
 import com.lazy.android.baseui.crumbs.CrumbsPickerDiyActivity;
 import com.lazy.android.baseui.crumbs.CrumbsTakephotoActivity;
@@ -43,7 +43,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 
 @ContentView(R.layout.xb_personset_addmypet_activity)
-public class AddMypetActivity extends LZBaseActivityI {
+public class AddMypetActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.addpet_headimg)
 	private CircleImageView addpet_headimg;

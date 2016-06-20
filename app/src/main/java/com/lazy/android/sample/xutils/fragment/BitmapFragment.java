@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseFragmentI;
+import com.lazy.android.baseui.base.LZBaseFragment;
 
 import org.xutils.common.Callback;
 import org.xutils.common.util.DensityUtil;
@@ -20,7 +20,7 @@ import org.xutils.x;
  * Created by Administrator on 2016/1/15.
  */
 @ContentView(R.layout.sample_fragment_bitmapfragment)
-public class BitmapFragment extends LZBaseFragmentI {
+public class BitmapFragment extends LZBaseFragment {
 	@ViewInject(R.id.sample_bitmap_url) private ImageView sample_bitmap_url;
 	private ImageOptions imageOptions;
 

@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.lazy.android.LZJavaBean.sqlite.UserBean;
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseFragmentI;
+import com.lazy.android.baseui.base.LZBaseFragment;
 import org.xutils.common.util.KeyValue;
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -16,7 +16,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by Administrator on 2016/1/15.
  */
 @ContentView(R.layout.sample_fragment_dbfragment)
-public class DbFragment extends LZBaseFragmentI {
+public class DbFragment extends LZBaseFragment {
 
 	@ViewInject(R.id.xutils_db_result)
 	TextView xutils_db_result;

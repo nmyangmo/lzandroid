@@ -8,7 +8,7 @@ import com.lazy.android.config.ConfigProtocolType;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.protocol.ForgetPasswordProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.GetsmsProtocol;
 
@@ -21,7 +21,7 @@ import org.xutils.view.annotation.ViewInject;
  */
 
 @ContentView(R.layout.xb_loginregister_forget_activity)
-public class ForgetPasswordActivity extends LZBaseActivityI {
+public class ForgetPasswordActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.forget_username) private EditText forget_username;
 	@ViewInject(R.id.forget_smscode) private EditText forget_smscode;

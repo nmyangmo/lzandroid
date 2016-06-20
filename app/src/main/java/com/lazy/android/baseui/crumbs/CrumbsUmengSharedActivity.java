@@ -13,7 +13,7 @@ import com.umeng.socialize.bean.SHARE_MEDIA;
 import com.umeng.socialize.media.UMImage;
 import com.lazy.android.config.ConfigUmeng;
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -22,7 +22,7 @@ import org.xutils.view.annotation.Event;
  * Created by chenglei on 16/4/14.
  */
 @ContentView(R.layout.lz_crumbs_umengshared_activity)
-public class CrumbsUmengSharedActivity extends LZBaseActivityI {
+public class CrumbsUmengSharedActivity extends LZBaseActivity {
 	private String title;
 	private String content;
 	private String img;

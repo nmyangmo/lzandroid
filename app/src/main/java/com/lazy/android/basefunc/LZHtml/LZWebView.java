@@ -59,15 +59,11 @@ public class LZWebView extends WebView {
 
 	//	帮助WebView处理各种通知、请求事件的
 	public class LZWebViewClient extends WebViewClient {
-
 		//		判断什么样的请求会交给webview来处理
 		@Override
 		public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
-//
 //			Intent i=new Intent(context, CommonWebViewActivity.class);
-//
 //			context.startActivity(i);
-
 			return null;
 		}
 
@@ -93,9 +89,9 @@ public class LZWebView extends WebView {
 		public void onLoadResource(WebView view, String url) {
 			super.onLoadResource(view, url);
 		}
+
 		@Override
-		public void onReceivedError(WebView view, int errorCode, String description, String failingUrl)
-		{
+		public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
 			view.stopLoading();
 			view.clearView();
 			String data = "Page NO FOUND！";
@@ -118,7 +114,6 @@ public class LZWebView extends WebView {
 	}
 
 
-
 	// webView与js交互代码
 	public void showWebView(String url) {
 		try {
@@ -126,8 +121,6 @@ public class LZWebView extends WebView {
 			this.requestFocus();
 //			WebChromeClient是辅助WebView处理Javascript的对话框，网站图标，网站title，加载进度等
 //			onCloseWindow(关闭WebView)
-
-
 //			onCreateWindow()
 //			onJsAlert (WebView上alert是弹不出来东西的，需要定制你的WebChromeClient处理弹出)
 //			onJsPrompt
@@ -138,9 +131,7 @@ public class LZWebView extends WebView {
 //			this.setWebChromeClient(new android.webkit.WebChromeClient() {
 //				@Override
 //				public void onProgressChanged(WebView view, int progress) {
-//
 //					Toast.makeText(context, "Loading....", Toast.LENGTH_SHORT).show();
-//
 //					if (progress >= 80) {
 //						Toast.makeText(context, "JsAndroid Test", Toast.LENGTH_SHORT).show();
 //					}
@@ -186,8 +177,6 @@ public class LZWebView extends WebView {
 //			String appCachePath = getApplicationContext().getCacheDir().getAbsolutePath();
 //			webSettings.setAppCachePath(appCachePath);
 //			webSettings.setAppCacheEnabled(true);
-
-
 //			不保存状态
 			this.setSaveEnabled(false);
 
@@ -200,16 +189,16 @@ public class LZWebView extends WebView {
 
 //			webview加载地址
 
-			if(url.contains("?")){
-				url += "&userid=" + UtilsShared.getInt(context, ConfigStaticType.SettingField.XB_UID,0) + "&token=" + UtilsShared.getString(context, ConfigStaticType.SettingField.XB_TOKEN,"0");
-			}else {
-				url += "?userid=" + UtilsShared.getInt(context, ConfigStaticType.SettingField.XB_UID,0) + "&token=" + UtilsShared.getString(context, ConfigStaticType.SettingField.XB_TOKEN,"0");
+			if (url.contains("?")) {
+				url += "&userid=" + UtilsShared.getInt(context, ConfigStaticType.SettingField.XB_UID, 0) + "&token=" + UtilsShared.getString(context, ConfigStaticType.SettingField.XB_TOKEN, "0");
+			} else {
+				url += "?userid=" + UtilsShared.getInt(context, ConfigStaticType.SettingField.XB_UID, 0) + "&token=" + UtilsShared.getString(context, ConfigStaticType.SettingField.XB_TOKEN, "0");
 			}
 
 			String murl = ConfigSystem.SERVER_ROOT;
-			if(url.contains("http")){
+			if (url.contains("http")) {
 				loadurl = url;
-			}else{
+			} else {
 				loadurl = murl + "app/" + url;
 			}
 			this.loadUrl(loadurl);
@@ -220,8 +209,8 @@ public class LZWebView extends WebView {
 	}
 
 
-////	刷新网页
-	public void refresh(){
+	////	刷新网页
+	public void refresh() {
 //		Toast.makeText(context, "LZweb refresh", Toast.LENGTH_SHORT).show();
 //		loadurl = loadurl + "&" + System.currentTimeMillis();
 //		Toast.makeText(context, loadurl, Toast.LENGTH_SHORT).show();

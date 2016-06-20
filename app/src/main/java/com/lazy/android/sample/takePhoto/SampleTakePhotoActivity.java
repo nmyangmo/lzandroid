@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZTakePhoto.LZTakePhotoConfig;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -23,7 +23,7 @@ import cn.finalteam.galleryfinal.model.PhotoInfo;
  */
 
 @ContentView(R.layout.sample_takephoto_activity)
-public class SampleTakePhotoActivity extends LZBaseActivityI {
+public class SampleTakePhotoActivity extends LZBaseActivity {
 
 //	必须定义的变量
 	private FunctionConfig.Builder functionConfigBuilder;

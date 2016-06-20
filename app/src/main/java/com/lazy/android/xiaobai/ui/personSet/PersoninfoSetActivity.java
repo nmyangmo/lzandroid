@@ -14,7 +14,7 @@ import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.baseui.crumbs.CrumbsCityPick.CrumbsCityPickActivity;
 import com.lazy.android.baseui.crumbs.CrumbsPickerDiyActivity;
 import com.lazy.android.baseui.crumbs.CrumbsTakephotoActivity;
@@ -35,7 +35,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
  * Created by chenglei on 16/3/12.
  */
 @ContentView(R.layout.xb_personset_info_activity)
-public class PersoninfoSetActivity extends LZBaseActivityI implements View.OnClickListener {
+public class PersoninfoSetActivity extends LZBaseActivity implements View.OnClickListener {
 
 	@ViewInject(R.id.persentinfo_back)
 	private LinearLayout persentinfo_back;
@@ -122,7 +122,7 @@ public class PersoninfoSetActivity extends LZBaseActivityI implements View.OnCli
 				String headurl = UtilsShared.getString(this, ConfigStaticType.SettingField.XB_HEADIMG, "");
 				persentinfo_headimg.setImageBitmap(BitmapFactory.decodeFile(headurl));
 			} else {
-				persentinfo_headimg.setImageResource(R.drawable.appico);
+				persentinfo_headimg.setImageResource(R.drawable.logo);
 			}
 
 			if (!UtilsShared.getString(this, ConfigStaticType.SettingField.XB_USERNAME, "").equals("")) {

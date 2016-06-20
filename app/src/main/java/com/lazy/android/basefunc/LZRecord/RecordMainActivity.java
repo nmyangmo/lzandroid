@@ -167,9 +167,9 @@ public class RecordMainActivity extends Activity implements View.OnTouchListener
             FileUtil.deleteFile(videoPath);
         } else {
             // 告诉宿主页面录制视频的路径
-            Intent intent = new Intent(this, ShowSendActivity.class);
-            intent.putExtra("path",videoPath);
-            intent.putExtra("imagePath", imgPath);
+            Intent intent = new Intent(this, PlayVideoActiviy.class);
+            intent.putExtra(PlayVideoActiviy.KEY_FILE_PATH,videoPath);
+            intent.putExtra(PlayVideoActiviy.KEY_IMG_PATH, imgPath);
             startActivity(intent);
         }
     }

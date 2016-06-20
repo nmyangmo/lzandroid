@@ -17,7 +17,7 @@ import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.basefunc.LZRecord.PlayVideoActiviy;
 import com.lazy.android.basefunc.LZUtils.UtilsDownload;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.main.adapter.ShowSendImageAdapter;
 import com.lazy.android.xiaobai.ui.main.adapter.ShowSendMypetAdapter;
 import com.lazy.android.xiaobai.ui.main.adapter.ShowSendTypeAdapter;
@@ -44,7 +44,7 @@ import cn.finalteam.galleryfinal.model.PhotoInfo;
  * Created by chenglei on 16/3/9.
  */
 @ContentView(R.layout.xb_show_send_activity)
-public class ShowSendActivity extends LZBaseActivityI {
+public class ShowSendActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.showsend_photo)
 	private LinearLayout showsend_photo;

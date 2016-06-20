@@ -7,7 +7,7 @@ import android.os.Message;
 import android.widget.ImageView;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.ViewInject;
@@ -18,7 +18,7 @@ import java.util.Random;
  * Created by chenglei on 16/5/23.
  */
 @ContentView(R.layout.xb_init_activity)
-public class InitActivity extends LZBaseActivityI {
+public class InitActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.init_leadimg)
 	ImageView init_leadimg;

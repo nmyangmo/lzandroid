@@ -6,7 +6,7 @@ import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZHtml.LZWebView;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.data.WebviewIntentData;
 
 import org.xutils.view.annotation.ContentView;
@@ -16,7 +16,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by chenglei on 16/3/17.
  */
 @ContentView(R.layout.lz_common_webview_activity)
-public class CommonWebViewActivity extends LZBaseActivityI {
+public class CommonWebViewActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.common_webview)
 	LZWebView webView;

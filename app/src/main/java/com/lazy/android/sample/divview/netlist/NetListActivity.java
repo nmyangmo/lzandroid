@@ -1,24 +1,74 @@
 package com.lazy.android.sample.divview.netlist;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.basedata.model.LZRefreshListData;
+import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
+import com.lazy.android.baseui.adapter.LZAdapter;
+import com.lazy.android.baseui.base.LZBaseActivity;
+import com.lazy.android.baseui.common.pulltorefresh.PullToRefreshBase;
+import com.lazy.android.baseui.common.pulltorefresh.PullToRefreshListView;
+import com.lazy.android.config.ConfigStaticType;
 
 import org.xutils.view.annotation.ContentView;
+
 
 /**
  * Created by chenglei on 16/6/16.
  */
 @ContentView(R.layout.sample_divview_netlist_activity)
-public class NetListActivity extends LZBaseActivityI {
+public class NetListActivity extends LZBaseActivity implements PullToRefreshBase.OnRefreshListener2, AdapterView.OnItemClickListener {
+
+	private PullToRefreshListView pullToRefreshListView;
+	private ListView listView;
+	private Boolean refreshed = true;
+	private LZRefreshListData datalist = new LZRefreshListData();
+	private LZAdapter adapter;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		initCommonHead();
+		LZRefreshListData<itemmodel> refreshListData =  new LZRefreshListData<itemmodel>();
+//		初始化视图
+		initView();
+//		初始化数据
+		initdata();
+//		绑定数据
+		bound();
 	}
 
+
+	@Override
+	public void initView() {
+		super.initView();
+		pullToRefreshListView = (PullToRefreshListView) findViewById(R.id.PullToRefreshListView);
+		pullToRefreshListView.setOnRefreshListener(this);
+		pullToRefreshListView.setEmptyView();//没有记录时候的界面设置
+		pullToRefreshListView.setLastPage(false);
+		pullToRefreshListView.onRefreshComplete(pullToRefreshListView.hasPullFromTop());
+		listView = pullToRefreshListView.getRefreshableView();
+		listView.setOnItemClickListener(this);
+	}
+
+	//	绑定数据
+	private void bound() {
+		adapter = new itemAdapter(this,R.layout.sample_divview_netlist_item,datalist.getDataList());
+		listView.setAdapter(adapter);
+	}
+
+	//	初始化数据
+	private void initdata() {
+		doRequest(true);
+	}
 
 
 	@Override
@@ -26,5 +76,65 @@ public class NetListActivity extends LZBaseActivityI {
 		super.initCommonHead();
 		mCommonHead.setMiddleTitle("网络请求页面列表");
 	}
+
+	@Override
+	public void onPullDownToRefresh() {
+		doRequest(true);
+	}
+
+	@Override
+	public void onPullUpToRefresh() {
+		doRequest(false);
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+	}
+
+	@Override
+	public void onHttpStart(LZHttpProtocolHandlerBase protocol) {
+		super.onHttpStart(protocol);
+	}
+
+	@Override
+	public void onHttpProgress(long total, long current, boolean isUploading) {
+		super.onHttpProgress(total, current, isUploading);
+	}
+
+	@Override
+	public void onHttpFailure(Exception except, String msg) {
+		super.onHttpFailure(except, msg);
+	}
+
+	@Override
+	public void onHttpSuccess(LZHttpProtocolHandlerBase protocol) {
+		super.onHttpSuccess(protocol);
+//		网络通顺
+		if(protocol.isHttpSuccess()){
+//			网络通顺，服务器返回的信息正确
+			if(protocol.isProtocolSuccess()){
+//				网络通顺，服务器返回的信息正确，没有数据
+				if(protocol.getProtocolType() == ConfigStaticType.ProtocolStatus.RESULT_SUCCESS_EMPTY){
+
+				}
+				//网络通顺，服务器返回的信息正确，有数据
+				else{
+					netlistProtocolList handler = (netlistProtocolList) protocol;
+					datalist = handler.getDataList();
+					adapter.updateData(datalist.getDataList(), true);
+					//                下拉刷新结束，上拉加载最后
+					pullToRefreshListView.onRefreshComplete(pullToRefreshListView.hasPullFromTop());
+					pullToRefreshListView.setLastPage(handler.getDataList().isLastPage());
+				}
+			}
+		}
+	}
+
+
+	private void doRequest(Boolean refreshed){
+		new netlistProtocolList(this,refreshed,datalist,this);
+	}
+
 
 }

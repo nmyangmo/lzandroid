@@ -39,6 +39,8 @@ public final class LZJson {
 		return toObject;
 	}
 
+
+
 	public List<Object> fromJson(String string, List<Object> list) {
 		Gson gson = new Gson();
 //		List<Object> result = new ArrayList<>();

@@ -6,14 +6,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.DatePicker;
 
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import java.util.Calendar;
 
 /**
  * Created by chenglei on 16/5/7.
  */
-public class CrumbsPickerDateActivity extends LZBaseActivityI {
+public class CrumbsPickerDateActivity extends LZBaseActivity {
 
 	public final static int RESULT_CODE = 11;
 

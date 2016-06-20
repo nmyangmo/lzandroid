@@ -15,14 +15,14 @@ import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.basefunc.LZAlipay.PayResult;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.data.WebviewIntentData;
 import com.lazy.android.xiaobai.ui.common.CommonWebViewActivity;
 
 /**
  * Created by chenglei on 16/5/4.
  */
-public class XiaobaiAlipayActivity extends LZBaseActivityI {
+public class XiaobaiAlipayActivity extends LZBaseActivity {
 	private static final int SDK_PAY_FLAG = 1;
 
 	private String orderid;

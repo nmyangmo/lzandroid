@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -20,7 +20,7 @@ import org.xutils.view.annotation.ViewInject;
  * 添加  解决左右两边有空隙 和 点击其他的地方关闭页面 的解决代码
  */
 @ContentView(R.layout.sample_divview_activity_buttonup_activity)
-public class ActivityButtonUpActivity extends LZBaseActivityI {
+public class ActivityButtonUpActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.activity_button_up) private RelativeLayout activity_button_up;
 	@Override

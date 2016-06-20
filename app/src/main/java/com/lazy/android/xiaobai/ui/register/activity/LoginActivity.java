@@ -13,7 +13,7 @@ import com.lazy.android.config.ConfigProtocolType;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.data.UserInfoThird;
 import com.lazy.android.xiaobai.ui.register.protocol.LoginProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.ThirdLoginProtocol;
@@ -31,7 +31,7 @@ import java.util.Map;
  */
 
 @ContentView(R.layout.xb_loginregister_login_activity)
-public class LoginActivity extends LZBaseActivityI {
+public class LoginActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.login_username)
 	private EditText login_username;

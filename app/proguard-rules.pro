@@ -376,6 +376,21 @@
 }
 
 
+#友盟统计混淆代码
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
+
+-keep public class com.lazy.android.R$*{
+    public static final int *;
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+
 ##----------------高德地图代码混淆--------------##
 #-------------------------------------------------
 #-libraryjars   libs/android-support-v4.jar

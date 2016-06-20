@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -14,7 +14,7 @@ import org.xutils.view.annotation.Event;
  * Created by chenglei on 16/3/26.
  */
 @ContentView(R.layout.demo_index_activity)
-public class ADemoIndexActivity extends LZBaseActivityI {
+public class ADemoIndexActivity extends LZBaseActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

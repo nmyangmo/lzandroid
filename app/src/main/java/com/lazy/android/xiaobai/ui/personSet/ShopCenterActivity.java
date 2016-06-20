@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.data.WebviewIntentData;
 import com.lazy.android.xiaobai.ui.common.CommonWebViewActivity;
 
@@ -25,7 +25,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 
 @ContentView(R.layout.xb_shopcenter_activity)
-public class ShopCenterActivity extends LZBaseActivityI {
+public class ShopCenterActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.common_head_headimg) CircleImageView common_head_headimg;
 	@ViewInject(R.id.common_head_headtext) TextView common_head_headtext;
@@ -38,7 +38,7 @@ public class ShopCenterActivity extends LZBaseActivityI {
 			String headurl = UtilsShared.getString(this, ConfigStaticType.SettingField.XB_HEADIMG, "");
 			common_head_headimg.setImageBitmap(BitmapFactory.decodeFile(headurl));
 		} else {
-			common_head_headimg.setImageResource(R.drawable.appico);
+			common_head_headimg.setImageResource(R.drawable.logo);
 		}
 		if (!UtilsShared.getString(this, ConfigStaticType.SettingField.XB_NICKNAME, "").equals("")) {
 			common_head_headtext.setText(UtilsShared.getString(this, ConfigStaticType.SettingField.XB_NICKNAME, ""));

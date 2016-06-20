@@ -14,6 +14,7 @@ import android.view.WindowManager;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsCrash;
+import com.umeng.analytics.MobclickAgent;
 
 import org.xutils.x;
 
@@ -48,6 +49,10 @@ public class LzandroidApplication extends Application {
 //        初始化xutils控件
         initXutils();
 
+//        初始化umeng第三方
+        initUmeng();
+
+
         mMainActivityId = 0;
         mActivitys = new HashMap<Long, Activity>();
         mConnectivityManager = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -72,7 +77,18 @@ public class LzandroidApplication extends Application {
 //        DataServiceManager.getInstance(mContext);
     }
 
-//    初始化xutils
+//    umeng初始化
+    private void initUmeng() {
+        MobclickAgent. startWithConfigure(new MobclickAgent.UMAnalyticsConfig(
+            this,
+            "5764c475e0f55acdc40027e7",
+            "APP",
+            MobclickAgent.EScenarioType.E_UM_NORMAL,
+            true));
+        MobclickAgent.setCatchUncaughtExceptions(true);
+    }
+
+    //    初始化xutils
     private void initXutils() {
 //        xutils3初始化
         x.Ext.init(this);

@@ -301,7 +301,7 @@
     <string name="apk_download">正在下载</string>
     <string name="apk_download_finished">下载完成</string>
     <string name="apk_downloading">正在下载...</string>
-    <string name="app_name">小白养宠</string>
+    <string name="app_name">LZAndroid</string>
     <string name="connect_timeout">客官，你的网路不给力！</string>
     <string name="crop_fail">Photo crop failure</string>
     <string name="crop_suc">Photo crop success</string>

@@ -12,7 +12,7 @@ import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.protocol.ForgetPasswordProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.GetsmsProtocol;
 
@@ -26,7 +26,7 @@ import org.xutils.view.annotation.ViewInject;
 
 
 @ContentView(R.layout.xb_loginregister_editpassword_activity)
-public class EditPasswordActivity extends LZBaseActivityI {
+public class EditPasswordActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.editpsw_telnum) EditText editpsw_telnum;
 	@ViewInject(R.id.editpsw_smscode) EditText editpsw_smscode;

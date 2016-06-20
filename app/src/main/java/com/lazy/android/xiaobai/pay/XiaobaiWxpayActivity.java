@@ -8,12 +8,12 @@ import com.tencent.mm.sdk.openapi.WXAPIFactory;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 /**
  * Created by chenglei on 16/5/4.
  */
-public class XiaobaiWxpayActivity extends LZBaseActivityI {
+public class XiaobaiWxpayActivity extends LZBaseActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

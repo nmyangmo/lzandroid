@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseFragmentI;
+import com.lazy.android.baseui.base.LZBaseFragment;
 
 import org.xutils.view.annotation.ContentView;
 
@@ -12,7 +12,7 @@ import org.xutils.view.annotation.ContentView;
  * Created by chenglei on 16/3/8.
  */
 @ContentView(R.layout.xb_mian_fragment_middle)
-public class MainMiddleFragment extends LZBaseFragmentI {
+public class MainMiddleFragment extends LZBaseFragment {
 
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {

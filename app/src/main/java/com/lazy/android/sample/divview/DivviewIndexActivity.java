@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.baseui.crumbs.CrumbsPickerDiyActivity;
 import com.lazy.android.sample.divview.activityButtonup.ActivityButtonUpActivity;
 import com.lazy.android.sample.divview.circleimageview.CircleImageViewActivity;
@@ -19,7 +19,7 @@ import org.xutils.view.annotation.Event;
  * Created by Administrator on 2016/3/4.
  */
 @ContentView(R.layout.sample_divview_index_activity)
-public class DivviewIndexActivity extends LZBaseActivityI {
+public class DivviewIndexActivity extends LZBaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

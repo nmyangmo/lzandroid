@@ -8,6 +8,8 @@ import com.lazy.android.basefunc.LZJson.LZJson;
  */
 public class LZBaseVoBean {
 
+
+
 //	Bean -> JsonString
 	public String toJson(){
 		LZJson lzJson = new LZJson();

@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.baseui.common.WheelView;
 
 import org.xutils.view.annotation.ContentView;
@@ -28,7 +28,7 @@ import java.util.ArrayList;
  */
 
 @ContentView(R.layout.lz_crumbs_picker_sex_activity)
-public class CrumbsPickerDiyActivity extends LZBaseActivityI {
+public class CrumbsPickerDiyActivity extends LZBaseActivity {
 
 	public final static int RESULT_CODE = 10;
 	public final static String INTENT_KEY = "result";

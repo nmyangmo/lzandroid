@@ -8,7 +8,7 @@ import android.widget.EditText;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -19,7 +19,7 @@ import org.xutils.view.annotation.ViewInject;
  */
 
 @ContentView(R.layout.xb_addrooturl_activity)
-public class AddRootUrlActivity extends LZBaseActivityI {
+public class AddRootUrlActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.edit) EditText edit;
 	@ViewInject(R.id.button) Button button;

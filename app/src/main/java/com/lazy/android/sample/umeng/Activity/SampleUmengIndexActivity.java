@@ -4,18 +4,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
+import com.lazy.android.config.ConfigUmeng;
+import com.umeng.analytics.MobclickAgent;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMAuthListener;
 import com.umeng.socialize.UMShareAPI;
 import com.umeng.socialize.bean.SHARE_MEDIA;
 import com.lazy.android.R;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.baseui.crumbs.CrumbsUmengSharedActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
 
+import java.util.ArrayList;
 import java.util.Map;
 
 /**
@@ -23,75 +27,58 @@ import java.util.Map;
  */
 
 @ContentView(R.layout.sample_umeng_activity)
-public class SampleUmengIndexActivity extends LZBaseActivityI {
+public class SampleUmengIndexActivity extends LZBaseActivity {
 
 	private UMShareAPI mShareAPI;
+	private TextView textView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-////		各个平台的配置
-		//微信 appid appsecret
-		PlatformConfig.setWeixin("wx9e5ba61fef2f3da5", "a51078d16fc653b678d7208fc70efd59");
-		//新浪微博 appkey appsecret
-		PlatformConfig.setSinaWeibo("4135614408", "084d58a296a41576d96046c30ddead60");
-//		// QQ和Qzone appid appkey
-		PlatformConfig.setQQZone("1104703359", "Ydmlp5q6mAwMFnlm");
-//		//支付宝 appid
-//		PlatformConfig.setAlipay("2015111700822536");
-//		//易信 appkey
-//		PlatformConfig.setYixin("yxc0614e80c9304c11b0391514d09f13bf");
-//		//Twitter appid appkey
-//		PlatformConfig.setTwitter("3aIN7fuF685MuZ7jtXkQxalyi", "MK6FEYG63eWcpDFgRYw4w9puJhzDl0tyuqWjZ3M7XJuuG7mMbO");
-//		//Pinterest appid
-//		PlatformConfig.setPinterest("1439206");
-//		//来往 appid appkey
-//		PlatformConfig.setLaiwang("laiwangd497e70d4", "d497e70d4c3e4efeab1381476bac4c5e");
-
-
+		initCommonHead();
+//		umeng初始化配置
+		ConfigUmeng.initUmeng();
 //		授权  首先获取UMShareAPI
 		mShareAPI = UMShareAPI.get(this);
-
 	}
 
-//	微信登录
+	//	微信登录
 	@Event(R.id.umeng_loginwx)
-	private void umeng_loginwx_Event(View view){
+	private void umeng_loginwx_Event(View view) {
 
-		if(mShareAPI.isInstall(this, SHARE_MEDIA.WEIXIN)){
+		if (mShareAPI.isInstall(this, SHARE_MEDIA.WEIXIN)) {
 			mShareAPI.doOauthVerify(this, SHARE_MEDIA.WEIXIN, umAuthListener);
-		}else{
+		} else {
 			ToastShow("您还未安装微信");
 		}
 
 	}
 
-//	QQ登录
+	//	QQ登录
 	@Event(R.id.umeng_loginqq)
-	private void umeng_loginqq_Event(View view){
+	private void umeng_loginqq_Event(View view) {
 
 
-		if(mShareAPI.isInstall(this, SHARE_MEDIA.QQ)){
+		if (mShareAPI.isInstall(this, SHARE_MEDIA.QQ)) {
 			mShareAPI.doOauthVerify(this, SHARE_MEDIA.QQ, umAuthListener);
-		}else{
+		} else {
 			ToastShow("您还未安装QQ");
 		}
 
 	}
 
-//	微博登录
+	//	微博登录
 	@Event(R.id.umeng_loginweibo)
-	private void umeng_loginweibo_Event(View view){
-		if(mShareAPI.isInstall(this, SHARE_MEDIA.SINA)){
+	private void umeng_loginweibo_Event(View view) {
+		if (mShareAPI.isInstall(this, SHARE_MEDIA.SINA)) {
 			mShareAPI.doOauthVerify(this, SHARE_MEDIA.SINA, umAuthListener);
-		}else{
+		} else {
 			ToastShow("您还未安装新浪");
 		}
 	}
 
 
-//	返回回调
+	//	返回回调
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
@@ -114,28 +101,64 @@ public class SampleUmengIndexActivity extends LZBaseActivityI {
 		@Override
 		public void onError(SHARE_MEDIA platform, int action, Throwable t) {
 			ToastShow("failaaaa");
-			Log.i("chenglei","fail");
+			Log.i("chenglei", "fail");
 //			Toast.makeText( getApplicationContext(), "Authorize fail", Toast.LENGTH_SHORT).show();
 		}
 
 		@Override
 		public void onCancel(SHARE_MEDIA platform, int action) {
 			ToastShow("cancelaaaa");
-			Log.i("chenglei","cancel");
+			Log.i("chenglei", "cancel");
 //			Toast.makeText( getApplicationContext(), "Authorize cancel", Toast.LENGTH_SHORT).show();
 		}
 	};
 
 
-
-//	点击打开分享面板
+	//	点击打开分享面板
 	@Event(R.id.umeng_share)
-	private void umeng_share_Event(View view){
+	private void umeng_share_Event(View view) {
 		startActivity(new Intent(this, CrumbsUmengSharedActivity.class));
 	}
 
 
+	//	统计账号登录
+	@Event(R.id.umeng_stat_login)
+	private void umeng_stat_login_Event(View view) {
+		MobclickAgent.onProfileSignIn("WB", "userID");
+	}
 
 
+	//	账号登出统计
+	@Event(R.id.umeng_stat_loginout)
+	private void umeng_stat_loginout_Event(View view) {
+		MobclickAgent.onProfileSignOff();
+	}
+
+
+	//	埋点统计
+	@Event(R.id.umeng_stat_diy)
+	private void umeng_stat_diy_Event(View view) {
+		MobclickAgent.onEvent(this, "1");
+	}
+
+
+	//	crash统计
+	@Event(R.id.umeng_stat_crash)
+	private void umeng_stat_crash_Event() {
+
+		textView.setText("测试crash");
+
+	}
+
+
+	/**
+	 * 设置头部布局
+	 */
+	@Override
+	public void initCommonHead() {
+		super.initCommonHead();
+		mCommonHead.setLeftLayoutVisible(true);
+		mCommonHead.setMiddleTitle("umeng");
+	}
 
 }

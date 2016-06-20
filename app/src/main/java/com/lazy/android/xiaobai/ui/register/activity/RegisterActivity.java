@@ -8,7 +8,7 @@ import com.lazy.android.config.ConfigProtocolType;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.register.protocol.GetsmsProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.RegisterProtocol;
 
@@ -20,7 +20,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by Administrator on 2016/3/3.
  */
 @ContentView(R.layout.xb_loginregister_register_activity)
-public class RegisterActivity extends LZBaseActivityI {
+public class RegisterActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.register_telnum) private EditText register_telnum;
 	@ViewInject(R.id.register_smscode) private EditText register_smscode;

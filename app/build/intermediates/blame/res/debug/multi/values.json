@@ -5094,9 +5094,9 @@
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 359,
+                        "startOffset": 364,
                         "endColumn": 45,
-                        "endOffset": 400
+                        "endOffset": 405
                     }
                 }
             },
@@ -5113,9 +5113,9 @@
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 459,
+                        "startOffset": 464,
                         "endColumn": 54,
-                        "endOffset": 509
+                        "endOffset": 514
                     }
                 }
             },
@@ -5132,9 +5132,9 @@
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 406,
+                        "startOffset": 411,
                         "endColumn": 51,
-                        "endOffset": 453
+                        "endOffset": 458
                     }
                 }
             },
@@ -5143,8 +5143,8 @@
                     "startLine": 303,
                     "startColumn": 4,
                     "startOffset": 15735,
-                    "endColumn": 41,
-                    "endOffset": 15772
+                    "endColumn": 46,
+                    "endOffset": 15777
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
@@ -5152,8 +5152,8 @@
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 57,
-                        "endColumn": 41,
-                        "endOffset": 94
+                        "endColumn": 46,
+                        "endOffset": 99
                     }
                 }
             },
@@ -5161,18 +5161,18 @@
                 "to": {
                     "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 15777,
+                    "startOffset": 15782,
                     "endColumn": 55,
-                    "endOffset": 15828
+                    "endOffset": 15833
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 248,
+                        "startOffset": 253,
                         "endColumn": 55,
-                        "endOffset": 299
+                        "endOffset": 304
                     }
                 }
             },
@@ -5180,9 +5180,9 @@
                 "to": {
                     "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 15833,
+                    "startOffset": 15838,
                     "endColumn": 56,
-                    "endOffset": 15885
+                    "endOffset": 15890
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5199,9 +5199,9 @@
                 "to": {
                     "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 15890,
+                    "startOffset": 15895,
                     "endColumn": 55,
-                    "endOffset": 15941
+                    "endOffset": 15946
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5218,18 +5218,18 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 15946,
+                    "startOffset": 15951,
                     "endColumn": 52,
-                    "endOffset": 15994
+                    "endOffset": 15999
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 305,
+                        "startOffset": 310,
                         "endColumn": 52,
-                        "endOffset": 353
+                        "endOffset": 358
                     }
                 }
             },
@@ -5237,9 +5237,9 @@
                 "to": {
                     "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 15999,
+                    "startOffset": 16004,
                     "endColumn": 102,
-                    "endOffset": 16097
+                    "endOffset": 16102
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5256,9 +5256,9 @@
                 "to": {
                     "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 16102,
+                    "startOffset": 16107,
                     "endColumn": 51,
-                    "endOffset": 16149
+                    "endOffset": 16154
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5275,9 +5275,9 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 16154,
+                    "startOffset": 16159,
                     "endColumn": 56,
-                    "endOffset": 16206
+                    "endOffset": 16211
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5294,9 +5294,9 @@
                 "to": {
                     "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 16211,
+                    "startOffset": 16216,
                     "endColumn": 43,
-                    "endOffset": 16250
+                    "endOffset": 16255
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5313,18 +5313,18 @@
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 16255,
+                    "startOffset": 16260,
                     "endColumn": 46,
-                    "endOffset": 16297
+                    "endOffset": 16302
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 200,
+                        "startOffset": 205,
                         "endColumn": 46,
-                        "endOffset": 242
+                        "endOffset": 247
                     }
                 }
             },
@@ -5332,9 +5332,9 @@
                 "to": {
                     "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 16302,
+                    "startOffset": 16307,
                     "endColumn": 80,
-                    "endOffset": 16378
+                    "endOffset": 16383
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5351,9 +5351,9 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 16383,
+                    "startOffset": 16388,
                     "endColumn": 48,
-                    "endOffset": 16427
+                    "endOffset": 16432
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5370,18 +5370,18 @@
                 "to": {
                     "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 16432,
+                    "startOffset": 16437,
                     "endColumn": 35,
-                    "endOffset": 16463
+                    "endOffset": 16468
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 634,
+                        "startOffset": 639,
                         "endColumn": 35,
-                        "endOffset": 665
+                        "endOffset": 670
                     }
                 }
             },
@@ -5389,9 +5389,9 @@
                 "to": {
                     "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 16468,
+                    "startOffset": 16473,
                     "endColumn": 67,
-                    "endOffset": 16531
+                    "endOffset": 16536
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5408,9 +5408,9 @@
                 "to": {
                     "startLine": 317,
                     "startColumn": 4,
-                    "startOffset": 16536,
+                    "startOffset": 16541,
                     "endColumn": 74,
-                    "endOffset": 16606
+                    "endOffset": 16611
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5427,9 +5427,9 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 16611,
+                    "startOffset": 16616,
                     "endColumn": 95,
-                    "endOffset": 16702
+                    "endOffset": 16707
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5446,9 +5446,9 @@
                 "to": {
                     "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 16707,
+                    "startOffset": 16712,
                     "endColumn": 49,
-                    "endOffset": 16752
+                    "endOffset": 16757
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5465,9 +5465,9 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 16757,
+                    "startOffset": 16762,
                     "endColumn": 49,
-                    "endOffset": 16802
+                    "endOffset": 16807
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5484,9 +5484,9 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 16807,
+                    "startOffset": 16812,
                     "endColumn": 71,
-                    "endOffset": 16874
+                    "endOffset": 16879
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5503,9 +5503,9 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 16879,
+                    "startOffset": 16884,
                     "endColumn": 66,
-                    "endOffset": 16941
+                    "endOffset": 16946
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5522,18 +5522,18 @@
                 "to": {
                     "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 16946,
+                    "startOffset": 16951,
                     "endColumn": 55,
-                    "endOffset": 16997
+                    "endOffset": 17002
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 671,
+                        "startOffset": 676,
                         "endColumn": 55,
-                        "endOffset": 722
+                        "endOffset": 727
                     }
                 }
             },
@@ -5541,9 +5541,9 @@
                 "to": {
                     "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 17002,
+                    "startOffset": 17007,
                     "endColumn": 43,
-                    "endOffset": 17041
+                    "endOffset": 17046
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5560,18 +5560,18 @@
                 "to": {
                     "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 17046,
+                    "startOffset": 17051,
                     "endColumn": 66,
-                    "endOffset": 17108
+                    "endOffset": 17113
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 833,
+                        "startOffset": 838,
                         "endColumn": 66,
-                        "endOffset": 895
+                        "endOffset": 900
                     }
                 }
             },
@@ -5579,18 +5579,18 @@
                 "to": {
                     "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 17113,
+                    "startOffset": 17118,
                     "endColumn": 66,
-                    "endOffset": 17175
+                    "endOffset": 17180
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 765,
+                        "startOffset": 770,
                         "endColumn": 66,
-                        "endOffset": 827
+                        "endOffset": 832
                     }
                 }
             },
@@ -5598,18 +5598,18 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 17180,
+                    "startOffset": 17185,
                     "endColumn": 73,
-                    "endOffset": 17249
+                    "endOffset": 17254
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1122,
+                        "startOffset": 1127,
                         "endColumn": 73,
-                        "endOffset": 1191
+                        "endOffset": 1196
                     }
                 }
             },
@@ -5617,18 +5617,18 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 17254,
+                    "startOffset": 17259,
                     "endColumn": 73,
-                    "endOffset": 17323
+                    "endOffset": 17328
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1047,
+                        "startOffset": 1052,
                         "endColumn": 73,
-                        "endOffset": 1116
+                        "endOffset": 1121
                     }
                 }
             },
@@ -5636,18 +5636,18 @@
                 "to": {
                     "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 17328,
+                    "startOffset": 17333,
                     "endColumn": 71,
-                    "endOffset": 17395
+                    "endOffset": 17400
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 974,
+                        "startOffset": 979,
                         "endColumn": 71,
-                        "endOffset": 1041
+                        "endOffset": 1046
                     }
                 }
             },
@@ -5655,18 +5655,18 @@
                 "to": {
                     "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 17400,
+                    "startOffset": 17405,
                     "endColumn": 71,
-                    "endOffset": 17467
+                    "endOffset": 17472
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 901,
+                        "startOffset": 906,
                         "endColumn": 71,
-                        "endOffset": 968
+                        "endOffset": 973
                     }
                 }
             },
@@ -5674,18 +5674,18 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 17472,
+                    "startOffset": 17477,
                     "endColumn": 69,
-                    "endOffset": 17537
+                    "endOffset": 17542
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1268,
+                        "startOffset": 1273,
                         "endColumn": 69,
-                        "endOffset": 1333
+                        "endOffset": 1338
                     }
                 }
             },
@@ -5693,18 +5693,18 @@
                 "to": {
                     "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 17542,
+                    "startOffset": 17547,
                     "endColumn": 69,
-                    "endOffset": 17607
+                    "endOffset": 17612
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1197,
+                        "startOffset": 1202,
                         "endColumn": 69,
-                        "endOffset": 1262
+                        "endOffset": 1267
                     }
                 }
             },
@@ -5712,9 +5712,9 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 17612,
+                    "startOffset": 17617,
                     "endColumn": 50,
-                    "endOffset": 17658
+                    "endOffset": 17663
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5731,18 +5731,18 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 17663,
+                    "startOffset": 17668,
                     "endColumn": 55,
-                    "endOffset": 17714
+                    "endOffset": 17719
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 143,
+                        "startOffset": 148,
                         "endColumn": 55,
-                        "endOffset": 194
+                        "endOffset": 199
                     }
                 }
             },
@@ -5750,9 +5750,9 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 17719,
+                    "startOffset": 17724,
                     "endColumn": 85,
-                    "endOffset": 17800
+                    "endOffset": 17805
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5769,9 +5769,9 @@
                 "to": {
                     "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 17805,
+                    "startOffset": 17810,
                     "endColumn": 56,
-                    "endOffset": 17857
+                    "endOffset": 17862
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5788,9 +5788,9 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 17862,
+                    "startOffset": 17867,
                     "endColumn": 62,
-                    "endOffset": 17920
+                    "endOffset": 17925
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5807,18 +5807,18 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 17925,
+                    "startOffset": 17930,
                     "endColumn": 52,
-                    "endOffset": 17973
+                    "endOffset": 17978
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 515,
+                        "startOffset": 520,
                         "endColumn": 52,
-                        "endOffset": 563
+                        "endOffset": 568
                     }
                 }
             },
@@ -5826,18 +5826,18 @@
                 "to": {
                     "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 17978,
+                    "startOffset": 17983,
                     "endColumn": 63,
-                    "endOffset": 18037
+                    "endOffset": 18042
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 569,
+                        "startOffset": 574,
                         "endColumn": 63,
-                        "endOffset": 628
+                        "endOffset": 633
                     }
                 }
             },
@@ -5845,18 +5845,18 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 18042,
+                    "startOffset": 18047,
                     "endColumn": 41,
-                    "endOffset": 18079
+                    "endOffset": 18084
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 100,
+                        "startOffset": 105,
                         "endColumn": 41,
-                        "endOffset": 137
+                        "endOffset": 142
                     }
                 }
             },
@@ -5864,9 +5864,9 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 18084,
+                    "startOffset": 18089,
                     "endColumn": 48,
-                    "endOffset": 18128
+                    "endOffset": 18133
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values/values.xml",
@@ -5883,10 +5883,10 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 18133,
+                    "startOffset": 18138,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 18419
+                    "endOffset": 18424
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -5904,10 +5904,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 18424,
+                    "startOffset": 18429,
                     "endLine": 351,
                     "endColumn": 12,
-                    "endOffset": 18525
+                    "endOffset": 18530
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -5925,10 +5925,10 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 18530,
+                    "startOffset": 18535,
                     "endLine": 354,
                     "endColumn": 12,
-                    "endOffset": 18685
+                    "endOffset": 18690
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -5946,10 +5946,10 @@
                 "to": {
                     "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 18690,
+                    "startOffset": 18695,
                     "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 19145
+                    "endOffset": 19150
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -5967,10 +5967,10 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 19150,
+                    "startOffset": 19155,
                     "endLine": 365,
                     "endColumn": 12,
-                    "endOffset": 19285
+                    "endOffset": 19290
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -5988,10 +5988,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 19290,
+                    "startOffset": 19295,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 19615
+                    "endOffset": 19620
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6009,10 +6009,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 19620,
+                    "startOffset": 19625,
                     "endLine": 380,
                     "endColumn": 12,
-                    "endOffset": 20185
+                    "endOffset": 20190
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6030,10 +6030,10 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 20190,
+                    "startOffset": 20195,
                     "endLine": 382,
                     "endColumn": 10,
-                    "endOffset": 20256
+                    "endOffset": 20261
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/values/values.xml",
@@ -6051,10 +6051,10 @@
                 "to": {
                     "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 20261,
+                    "startOffset": 20266,
                     "endLine": 388,
                     "endColumn": 12,
-                    "endOffset": 20544
+                    "endOffset": 20549
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6072,10 +6072,10 @@
                 "to": {
                     "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 20549,
+                    "startOffset": 20554,
                     "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 20845
+                    "endOffset": 20850
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6093,10 +6093,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 20850,
+                    "startOffset": 20855,
                     "endLine": 397,
                     "endColumn": 12,
-                    "endOffset": 21070
+                    "endOffset": 21075
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6114,10 +6114,10 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 21075,
+                    "startOffset": 21080,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 21611
+                    "endOffset": 21616
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6135,10 +6135,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 21616,
+                    "startOffset": 21621,
                     "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 22409
+                    "endOffset": 22414
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6156,10 +6156,10 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 22414,
+                    "startOffset": 22419,
                     "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 22821
+                    "endOffset": 22826
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6177,10 +6177,10 @@
                 "to": {
                     "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 22826,
+                    "startOffset": 22831,
                     "endLine": 443,
                     "endColumn": 12,
-                    "endOffset": 23326
+                    "endOffset": 23331
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles.xml",
@@ -6198,10 +6198,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 23331,
+                    "startOffset": 23336,
                     "endLine": 447,
                     "endColumn": 12,
-                    "endOffset": 23501
+                    "endOffset": 23506
                 },
                 "from": {
                     "file": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/values/styles_text.xml",

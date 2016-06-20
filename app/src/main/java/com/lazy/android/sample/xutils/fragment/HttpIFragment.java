@@ -11,7 +11,7 @@ import com.lazy.android.basefunc.LZUtils.UtilsStringNum;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.config.ConfigFilePath;
 import com.lazy.android.config.ConfigProtocolType;
-import com.lazy.android.baseui.base.LZBaseFragmentI;
+import com.lazy.android.baseui.base.LZBaseFragment;
 import com.lazy.android.sample.xutils.protocol.SampleGetProtocol;
 import com.lazy.android.sample.xutils.protocol.SamplePostProtocol;
 import com.lazy.android.sample.xutils.protocol.SampleUploadProtocol;
@@ -27,7 +27,7 @@ import java.io.File;
  * Created by Administrator on 2016/1/15.
  */
 @ContentView(R.layout.sample_fragment_httpfragment)
-public class HttpIFragment extends LZBaseFragmentI {
+public class HttpIFragment extends LZBaseFragment {
 
 	@ViewInject(R.id.xutils_http_get)  TextView xutils_http_get;
 	@ViewInject(R.id.xutils_http_post)  TextView xutils_http_post;

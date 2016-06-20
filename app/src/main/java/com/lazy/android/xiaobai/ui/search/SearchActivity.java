@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZHtml.LZWebView;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -18,7 +18,7 @@ import org.xutils.view.annotation.ViewInject;
  * Created by chenglei on 16/3/10.
  */
 @ContentView(R.layout.xb_pet_search)
-public class SearchActivity extends LZBaseActivityI {
+public class SearchActivity extends LZBaseActivity {
 
 	public final static int pet = 1;
 	public final static int shop = 2;

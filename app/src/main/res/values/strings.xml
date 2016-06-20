@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">小白养宠</string>
+    <string name="app_name">LZAndroid</string>
     <string name="version">1.0.0</string>
     <string name="sd_error">读取SD卡失败.请检查SD卡是否安装</string>
     <string name="mail_failed">打开邮箱失败</string>

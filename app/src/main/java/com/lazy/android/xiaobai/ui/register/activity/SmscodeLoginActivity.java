@@ -13,7 +13,7 @@ import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.R;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.xiaobai.ui.main.activity.MainIndexActivity;
 import com.lazy.android.xiaobai.ui.register.protocol.GetsmsProtocol;
 import com.lazy.android.xiaobai.ui.register.protocol.SmscodeLoginProtocol;
@@ -27,7 +27,7 @@ import org.xutils.view.annotation.ViewInject;
  */
 
 @ContentView(R.layout.xb_loginregister_smscodelogin_activity)
-public class SmscodeLoginActivity extends LZBaseActivityI {
+public class SmscodeLoginActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.smslogin_username) private EditText smslogin_username;
 	@ViewInject(R.id.smslogin_smscode) private EditText smslogin_smscode;

@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZTakePhoto.LZTakePhotoConfig;
-import com.lazy.android.baseui.base.LZBaseActivityI;
+import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -27,7 +27,7 @@ import cn.finalteam.galleryfinal.model.PhotoInfo;
  * Created by chenglei on 16/4/14.
  */
 @ContentView(R.layout.lz_crumbs_takephoto_activity)
-public class CrumbsTakephotoActivity extends LZBaseActivityI {
+public class CrumbsTakephotoActivity extends LZBaseActivity {
 
 	@ViewInject(R.id.crumbs_takephoto_layout) private RelativeLayout crumbs_takephoto_layout;
 	private FunctionConfig.Builder functionConfigBuilder;
