@@ -1,2 +1,0 @@
-CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/lazy/android/sample/divview/circleimageview/CircleImageViewActivity$1.class
-CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/lazy/android/sample/divview/circleimageview/CircleImageViewActivity.class

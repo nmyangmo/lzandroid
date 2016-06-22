@@ -65,9 +65,15 @@
             android:background="@drawable/lz_button_on"
             android:layout_margin="@dimen/px_20"
             android:text="使用图片编辑"
+            android:visibility="gone"
             android:textSize="@dimen/text_size_36"
             android:textColor="@color/white"/>
 
+        <TextView
+            android:id="@+id/takephoto_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
 
 

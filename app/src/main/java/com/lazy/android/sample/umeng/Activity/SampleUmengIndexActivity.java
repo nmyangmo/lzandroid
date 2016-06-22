@@ -46,11 +46,13 @@ public class SampleUmengIndexActivity extends LZBaseActivity {
 	@Event(R.id.umeng_loginwx)
 	private void umeng_loginwx_Event(View view) {
 
-		if (mShareAPI.isInstall(this, SHARE_MEDIA.WEIXIN)) {
-			mShareAPI.doOauthVerify(this, SHARE_MEDIA.WEIXIN, umAuthListener);
-		} else {
-			ToastShow("您还未安装微信");
-		}
+		ToastShow("请配置APPKEY");
+//		if (mShareAPI.isInstall(this, SHARE_MEDIA.WEIXIN)) {
+//			mShareAPI.doOauthVerify(this, SHARE_MEDIA.WEIXIN, umAuthListener);
+//		} else {
+//			ToastShow("您还未安装微信");
+//		}
+
 
 	}
 
@@ -59,22 +61,25 @@ public class SampleUmengIndexActivity extends LZBaseActivity {
 	private void umeng_loginqq_Event(View view) {
 
 
-		if (mShareAPI.isInstall(this, SHARE_MEDIA.QQ)) {
-			mShareAPI.doOauthVerify(this, SHARE_MEDIA.QQ, umAuthListener);
-		} else {
-			ToastShow("您还未安装QQ");
-		}
+		ToastShow("请配置APPKEY");
+//		if (mShareAPI.isInstall(this, SHARE_MEDIA.QQ)) {
+//			mShareAPI.doOauthVerify(this, SHARE_MEDIA.QQ, umAuthListener);
+//		} else {
+//			ToastShow("您还未安装QQ");
+//		}
 
 	}
 
 	//	微博登录
 	@Event(R.id.umeng_loginweibo)
 	private void umeng_loginweibo_Event(View view) {
-		if (mShareAPI.isInstall(this, SHARE_MEDIA.SINA)) {
-			mShareAPI.doOauthVerify(this, SHARE_MEDIA.SINA, umAuthListener);
-		} else {
-			ToastShow("您还未安装新浪");
-		}
+
+		ToastShow("请配置APPKEY");
+//		if (mShareAPI.isInstall(this, SHARE_MEDIA.SINA)) {
+//			mShareAPI.doOauthVerify(this, SHARE_MEDIA.SINA, umAuthListener);
+//		} else {
+//			ToastShow("您还未安装新浪");
+//		}
 	}
 
 

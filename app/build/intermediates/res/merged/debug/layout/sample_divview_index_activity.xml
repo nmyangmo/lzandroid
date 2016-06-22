@@ -68,7 +68,7 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:background="@drawable/lz_button_on"
-            android:text="性别拾取器"/>
+            android:text="选择拾取器"/>
 
         <TextView
             android:id="@+id/netlist"

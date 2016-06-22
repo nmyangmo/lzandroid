@@ -7,7 +7,7 @@
         </shape>
     </item>
     <!-- 主体背景颜色值 -->
-    <item android:top="@dimen/px_10">
+    <item android:top="@dimen/px1">
         <shape>
             <solid android:color="@color/white" />
         </shape>

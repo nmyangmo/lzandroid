@@ -16,7 +16,7 @@ public class ConfigUmeng {
 //		// QQ和Qzone appid appkey
 		PlatformConfig.setQQZone("", "");
 //		//支付宝 appid
-//		PlatformConfig.setAlipay("2015111700822536");
+//		PlatformConfig.setAlipay("");
 //		//易信 appkey
 //		PlatformConfig.setYixin("yxc0614e80c9304c11b0391514d09f13bf");
 //		//Twitter appid appkey

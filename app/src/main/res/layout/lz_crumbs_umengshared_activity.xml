@@ -67,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:visibility="gone"
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="@dimen/px_97"
@@ -92,7 +91,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px_30"
-            android:visibility="gone"
             android:orientation="horizontal">
             <LinearLayout
                 android:id="@+id/umengshare_qzone"
@@ -120,7 +118,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:visibility="invisible"
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="@dimen/px_97"

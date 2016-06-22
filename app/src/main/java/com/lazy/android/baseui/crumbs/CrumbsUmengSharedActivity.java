@@ -45,61 +45,68 @@ public class CrumbsUmengSharedActivity extends LZBaseActivity {
 	//	分享到微信朋友圈
 	@Event(R.id.umengshare_wxpeng)
 	private void umengshare_wxpeng_Event(View v){
-		new ShareAction(this)
-			.setPlatform(SHARE_MEDIA.WEIXIN_CIRCLE)
-			.setCallback(umShareListener)
-			.withText(title)
-			.withTargetUrl(url)
-			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
-			.share();
+
+		ToastShow("请配置APPKEY");
+//		new ShareAction(this)
+//			.setPlatform(SHARE_MEDIA.WEIXIN_CIRCLE)
+//			.setCallback(umShareListener)
+//			.withText(title)
+//			.withTargetUrl(url)
+//			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
+//			.share();
 	}
 
 	//	分享到微信
 	@Event(R.id.umengshare_wx)
 	private void umengshare_wx_Event(View v){
-		new ShareAction(this)
-			.setPlatform(SHARE_MEDIA.WEIXIN)
-			.setCallback(umShareListener)
-			.withText(title)
-			.withTargetUrl(url)
-			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
-			.share();
+
+		ToastShow("请配置APPKEY");
+//		new ShareAction(this)
+//			.setPlatform(SHARE_MEDIA.WEIXIN)
+//			.setCallback(umShareListener)
+//			.withText(title)
+//			.withTargetUrl(url)
+//			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
+//			.share();
 	}
 
 	//	分享到QQ
 	@Event(R.id.umengshare_qq)
 	private void umengshare_qq_Event(View v){
-		new ShareAction(this)
-			.setPlatform(SHARE_MEDIA.QQ)
-			.setCallback(umShareListener)
-			.withText(title)
-			.withTargetUrl(url)
-			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
-			.share();
+		ToastShow("请配置APPKEY");
+//		new ShareAction(this)
+//			.setPlatform(SHARE_MEDIA.QQ)
+//			.setCallback(umShareListener)
+//			.withText(title)
+//			.withTargetUrl(url)
+//			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
+//			.share();
 	}
 
 	//	分享到QZONE
 	@Event(R.id.umengshare_qzone)
 	private void umengshare_qzone_Event(View v){
-		new ShareAction(this)
-			.setPlatform(SHARE_MEDIA.QZONE)
-			.setCallback(umShareListener)
-			.withText(title)
-			.withTargetUrl(url)
-			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
-			.share();
+		ToastShow("请配置APPKEY");
+//		new ShareAction(this)
+//			.setPlatform(SHARE_MEDIA.QZONE)
+//			.setCallback(umShareListener)
+//			.withText(title)
+//			.withTargetUrl(url)
+//			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
+//			.share();
 	}
 
 	//	分享到微博
 	@Event(R.id.umengshare_weibo)
 	private void umengshare_weibo_Event(View v){
-		new ShareAction(this)
-			.setPlatform(SHARE_MEDIA.SINA)
-			.setCallback(umShareListener)
-			.withText(title)
-			.withTargetUrl(url)
-			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
-			.share();
+		ToastShow("请配置APPKEY");
+//		new ShareAction(this)
+//			.setPlatform(SHARE_MEDIA.SINA)
+//			.setCallback(umShareListener)
+//			.withText(title)
+//			.withTargetUrl(url)
+//			.withMedia(new UMImage(CrumbsUmengSharedActivity.this,img))
+//			.share();
 	}
 
 

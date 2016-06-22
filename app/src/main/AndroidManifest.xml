@@ -174,14 +174,14 @@
         </activity>
 
 
-        <!--<activity-->
-            <!--android:name=".sample.divview.activityButtonup.ActivityButtonUpActivity"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@style/lz_activity_buttonup"/>-->
+        <activity
+            android:name=".sample.divview.activityButtonup.ActivityButtonUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activity_buttonup"/>
 
-        <!--<activity-->
-            <!--android:name=".sample.takePhoto.SampleTakePhotoActivity"-->
-            <!--android:screenOrientation="portrait"/>-->
+        <activity
+            android:name=".sample.takePhoto.SampleTakePhotoActivity"
+            android:screenOrientation="portrait"/>
 
 
         <activity android:name=".basefunc.LZAlipay.AlipayDemoActivity"/>
@@ -470,7 +470,7 @@
 
         <!--支付宝支付-->
         <activity
-            android:name=".xiaobai.pay.XiaobaiAlipayActivity"
+            android:name=".basefunc.LZPay.AlipayActivity"
             android:screenOrientation="portrait"
             android:theme="@style/lz_CustomAlertDialog">
             <!--<intent-filter>-->
@@ -482,7 +482,7 @@
 
         <!--微信支付-->
         <activity
-            android:name=".xiaobai.pay.XiaobaiWxpayActivity"
+            android:name=".basefunc.LZPay.WxpayActivity"
             android:screenOrientation="portrait"
             android:theme="@style/lz_CustomAlertDialog">
             <!--<intent-filter>-->

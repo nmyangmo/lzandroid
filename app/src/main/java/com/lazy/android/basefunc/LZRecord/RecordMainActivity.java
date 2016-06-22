@@ -18,7 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lazy.android.R;
-import com.lazy.android.xiaobai.ui.main.activity.ShowSendActivity;
 
 import java.io.File;
 import java.io.FileNotFoundException;

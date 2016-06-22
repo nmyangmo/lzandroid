@@ -12,7 +12,6 @@ import android.widget.TimePicker;
 import android.widget.TimePicker.OnTimeChangedListener;
 
 import com.lazy.android.R;
-import com.lazy.android.xiaobai.ui.register.activity.LoginActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

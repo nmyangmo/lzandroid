@@ -10,6 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:paddingTop="@dimen/px_20"
+        android:paddingBottom="@dimen/px_20"
         android:background="@drawable/lz_border_top_ff0000"
         android:layout_alignParentBottom="true">
 

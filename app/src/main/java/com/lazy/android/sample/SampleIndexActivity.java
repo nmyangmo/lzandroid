@@ -5,11 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lazy.android.R;
-import com.lazy.android.basefunc.LZAlipay.AlipayActivity;
-import com.lazy.android.basefunc.LZAlipay.AlipayDemoActivity;
+import com.lazy.android.basefunc.LZPay.AlipayActivity;
+import com.lazy.android.basefunc.LZPay.WxpayActivity;
 import com.lazy.android.basefunc.LZRecord.RecordMainActivity;
 import com.lazy.android.sample.webview.LZHtmlActivity;
-import com.lazy.android.basefunc.LZWxpay.LZWxpayActivity;
 import com.lazy.android.sample.demo.ADemoIndexActivity;
 import com.lazy.android.baseui.base.LZBaseActivity;
 import com.lazy.android.sample.divview.DivviewIndexActivity;
@@ -65,10 +64,7 @@ public class SampleIndexActivity extends LZBaseActivity {
 //	视频录制
 	@Event(value = R.id.recoder,type = View.OnClickListener.class)
 	private void recoderEvent(View view){
-
 		startActivity(new Intent(this, RecordMainActivity.class));
-//		startActivity(new Intent(this, ActivityFFmpegRecorder.class));
-//		startActivity(new Intent(this, ARecorderActivity.class));
 	}
 
 
@@ -88,21 +84,17 @@ public class SampleIndexActivity extends LZBaseActivity {
 //	调用微信支付
 	@Event(R.id.weixinpay)
 	private void weixinpayEvent(View view){
-		startActivity(new Intent(this, LZWxpayActivity.class));
-	}
+		ToastShow("请配置服务器的微信订单签名地址信息");
+//		startActivity(new Intent(this, WxpayActivity.class));
 
-
-	//	支付宝支付<演示用>
-	@Event(R.id.alipaydemo)
-	private void alipaydemoEvent(View view){
-		startActivity(new Intent(this, AlipayDemoActivity.class));
 	}
 
 
 	//	支付宝支付<用于正式项目，依赖服务器端支持>
 	@Event(R.id.alipay)
 	private void alipayEvent(View view){
-		startActivity(new Intent(this, AlipayActivity.class));
+		ToastShow("请配置服务器的支付宝订单签名地址信息");
+//		startActivity(new Intent(this, AlipayActivity.class));
 	}
 
 

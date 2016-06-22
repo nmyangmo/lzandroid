@@ -14,8 +14,6 @@ import com.tencent.mm.sdk.openapi.WXAPIFactory;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.xiaobai.data.WebviewIntentData;
-import com.lazy.android.xiaobai.ui.common.CommonWebViewActivity;
 
 
 public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
@@ -59,10 +57,10 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
 			String orderid = UtilsShared.getString(this, ConfigStaticType.SettingField.XB_ORDERID,"0");
 			String url = ConfigSystem.SERVER_ROOT + "app/paysuccess.html?ordersn=" + orderid;
 			String refresh = "true";
-			WebviewIntentData webviewIntentData = new WebviewIntentData(title,url,refresh);
-			Intent intent = new Intent(this,CommonWebViewActivity.class);
-			intent.putExtra("intentdata",webviewIntentData);
-			startActivity(intent);
+//			WebviewIntentData webviewIntentData = new WebviewIntentData(title,url,refresh);
+//			Intent intent = new Intent(this,CommonWebViewActivity.class);
+//			intent.putExtra("intentdata",webviewIntentData);
+//			startActivity(intent);
 			Toast.makeText(WXPayEntryActivity.this, "支付成功", Toast.LENGTH_SHORT).show();
 			this.finish();
 		}else if(resp.errCode == -2){

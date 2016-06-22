@@ -291,6 +291,20 @@ ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManif
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:169:13-49
 	android:name
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:168:13-69
+activity#com.lazy.android.sample.divview.activityButtonup.ActivityButtonUpActivity
+ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:177:9-180:58
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:179:13-49
+	android:theme
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:180:13-56
+	android:name
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:178:13-85
+activity#com.lazy.android.sample.takePhoto.SampleTakePhotoActivity
+ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:182:9-184:51
+	android:screenOrientation
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:184:13-49
+	android:name
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:183:13-69
 activity#com.lazy.android.basefunc.LZAlipay.AlipayDemoActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:187:9-73
 	android:name
@@ -579,22 +593,22 @@ ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManif
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:468:13-56
 	android:name
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:465:13-53
-activity#com.lazy.android.xiaobai.pay.XiaobaiAlipayActivity
+activity#com.lazy.android.basefunc.LZPay.AlipayActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:472:9-481:20
 	android:screenOrientation
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:474:13-49
 	android:theme
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:475:13-56
 	android:name
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:473:13-62
-activity#com.lazy.android.xiaobai.pay.XiaobaiWxpayActivity
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:473:13-58
+activity#com.lazy.android.basefunc.LZPay.WxpayActivity
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:484:9-492:20
 	android:screenOrientation
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:486:13-49
 	android:theme
 		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:487:13-56
 	android:name
-		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:485:13-61
+		ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:485:13-57
 service#com.lazy.android.xiaobai.ui.register.services.UserinfoService
 ADDED from /Users/chenglei/android代码/lzAndroid_bak/app/src/main/AndroidManifest.xml:495:9-497:19
 	android:name

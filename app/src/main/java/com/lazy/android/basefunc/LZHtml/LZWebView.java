@@ -18,7 +18,6 @@ import com.lazy.android.config.ConfigFilePath;
 import com.lazy.android.config.ConfigStaticType;
 import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.basefunc.LZUtils.UtilsShared;
-import com.lazy.android.xiaobai.ui.common.CommonWebViewObject;
 
 /**
  * Created by chenglei on 16/3/17.
@@ -184,7 +183,7 @@ public class LZWebView extends WebView {
 //			把原生对象注入到页面中命名为jsObj对象
 //			注： compileSdkVersion版本号要用最高
 //			对象中的每个方法都必须要加  @JavascriptInterface
-			this.addJavascriptInterface(new CommonWebViewObject(context, this), "native");
+//			this.addJavascriptInterface(new CommonWebViewObject(context, this), "native");
 //			this.addJavascriptInterface(getHtmlObject(), "toJsObj");
 
 //			webview加载地址

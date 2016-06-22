@@ -15,11 +15,14 @@ import com.lazy.android.sample.divview.slidingmenu.SlidingmenuIndexActivity;
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
 
+import java.util.ArrayList;
+
 /**
  * Created by Administrator on 2016/3/4.
  */
 @ContentView(R.layout.sample_divview_index_activity)
 public class DivviewIndexActivity extends LZBaseActivity {
+	private ArrayList<String> selectdata = new ArrayList<String>();
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -44,10 +47,18 @@ public class DivviewIndexActivity extends LZBaseActivity {
 
 
 
-//	性别拾取器
+//	简单选择拾取器
 	@Event(R.id.sexpick)
 	private void sexpick_Event(View view){
-		startActivityForResult(new Intent(this, CrumbsPickerDiyActivity.class), CrumbsPickerDiyActivity.RESULT_CODE);
+		selectdata.clear();
+		selectdata.add("数据1");
+		selectdata.add("数据2");
+		selectdata.add("数据3");
+		selectdata.add("数据4");
+		Intent intent = new Intent(this, CrumbsPickerDiyActivity.class);
+		intent.putExtra("data",selectdata);
+		intent.putExtra("title","标题");
+		startActivityForResult(intent, CrumbsPickerDiyActivity.RESULT_CODE);
 	}
 
 
@@ -58,8 +69,12 @@ public class DivviewIndexActivity extends LZBaseActivity {
 		super.onActivityResult(requestCode, resultCode, data);
 //		性别拾取器
 		if(resultCode == CrumbsPickerDiyActivity.RESULT_CODE){
-			String result = data.getStringExtra(CrumbsPickerDiyActivity.INTENT_KEY);
-			ToastShow(result);
+			int position = data.getIntExtra(CrumbsPickerDiyActivity.INTENT_KEY,0);
+			ToastShow(selectdata.get(position));
+		}
+
+		if(resultCode == CrumbsPickerDiyActivity.RESULT_CODE){
+			int position = data.getIntExtra(CrumbsPickerDiyActivity.INTENT_KEY,0);
 		}
 	}
 

@@ -170,17 +170,13 @@
             <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
             <!-- </intent-filter> -->
         </activity>
-
-        <!-- <activity -->
-        <!-- android:name=".sample.divview.activityButtonup.ActivityButtonUpActivity" -->
-        <!-- android:screenOrientation="portrait" -->
-        <!-- android:theme="@style/lz_activity_buttonup"/> -->
-
-
-        <!-- <activity -->
-        <!-- android:name=".sample.takePhoto.SampleTakePhotoActivity" -->
-        <!-- android:screenOrientation="portrait"/> -->
-
+        <activity
+            android:name="com.lazy.android.sample.divview.activityButtonup.ActivityButtonUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lz_activity_buttonup" />
+        <activity
+            android:name="com.lazy.android.sample.takePhoto.SampleTakePhotoActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="com.lazy.android.basefunc.LZAlipay.AlipayDemoActivity" />
 
         <!-- ########################### umeng需要的activity注册开始 ########################### -->
@@ -435,7 +431,7 @@
 
         <!-- 支付宝支付 -->
         <activity
-            android:name="com.lazy.android.xiaobai.pay.XiaobaiAlipayActivity"
+            android:name="com.lazy.android.basefunc.LZPay.AlipayActivity"
             android:screenOrientation="portrait"
             android:theme="@style/lz_CustomAlertDialog" >
 
@@ -448,7 +444,7 @@
 
         <!-- 微信支付 -->
         <activity
-            android:name="com.lazy.android.xiaobai.pay.XiaobaiWxpayActivity"
+            android:name="com.lazy.android.basefunc.LZPay.WxpayActivity"
             android:screenOrientation="portrait"
             android:theme="@style/lz_CustomAlertDialog" >
 

@@ -2,6 +2,7 @@ package com.lazy.android.sample.takePhoto;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lazy.android.R;
@@ -10,6 +11,7 @@ import com.lazy.android.baseui.base.LZBaseActivity;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
+import org.xutils.view.annotation.ViewInject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +26,8 @@ import cn.finalteam.galleryfinal.model.PhotoInfo;
 
 @ContentView(R.layout.sample_takephoto_activity)
 public class SampleTakePhotoActivity extends LZBaseActivity {
+
+	@ViewInject(R.id.takephoto_msg) private TextView takephoto_msg;
 
 //	必须定义的变量
 	private FunctionConfig.Builder functionConfigBuilder;
@@ -134,6 +138,12 @@ public class SampleTakePhotoActivity extends LZBaseActivity {
 			if (resultList != null) {
 				ToastShow("返回的标识码为 ： "+reqeustCode);
 			}
+
+			String result = "";
+			for (int i = 0 ; i < resultList.size() ; i++){
+				result += resultList.get(i).getPhotoPath() + "\n";
+			}
+			takephoto_msg.setText(result);
 		}
 
 		@Override
