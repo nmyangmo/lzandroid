@@ -1,0 +1,9 @@
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$4$1$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$4$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$1$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$4$3$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$2$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$3$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/lazy/android/sample/jpush/JpushIndexActivity$4$2$override.class
+CHANGED,/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

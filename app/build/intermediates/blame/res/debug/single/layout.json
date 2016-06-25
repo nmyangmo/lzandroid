@@ -100,12 +100,20 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_edit.xml"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/jpush_webview_layout.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/jpush_webview_layout.xml"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pet_search.xml",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pet_search.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_main_showaddtype_activity.xml",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_main_showaddtype_activity.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/jpush_popwin_layout.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/jpush_popwin_layout.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_custom_hintdialog.xml",

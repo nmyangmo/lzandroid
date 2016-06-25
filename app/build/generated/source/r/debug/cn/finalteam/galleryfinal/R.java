@@ -19,12 +19,12 @@ public final class R {
 		public static final int fabTitle = 0x7f010012;
 	}
 	public static final class dimen {
-		public static final int fab_icon_size = 0x7f050004;
-		public static final int fab_shadow_offset = 0x7f050005;
-		public static final int fab_shadow_radius = 0x7f050006;
-		public static final int fab_size_normal = 0x7f050007;
-		public static final int fab_stroke_width = 0x7f050008;
-		public static final int gf_title_bar_height = 0x7f050000;
+		public static final int fab_icon_size = 0x7f060004;
+		public static final int fab_shadow_offset = 0x7f060005;
+		public static final int fab_shadow_radius = 0x7f060006;
+		public static final int fab_size_normal = 0x7f060007;
+		public static final int fab_stroke_width = 0x7f060008;
+		public static final int gf_title_bar_height = 0x7f060000;
 	}
 	public static final class drawable {
 		public static final int bg_gf_crop_texture = 0x7f020003;
@@ -43,39 +43,39 @@ public final class R {
 		public static final int ic_gf_triangle_arrow = 0x7f020010;
 	}
 	public static final class id {
-		public static final int fab_crop = 0x7f0a0043;
-		public static final int fab_label = 0x7f0a0000;
-		public static final int fab_ok = 0x7f0a004e;
-		public static final int gv_photo_list = 0x7f0a004d;
-		public static final int iv_back = 0x7f0a003a;
-		public static final int iv_check = 0x7f0a0058;
-		public static final int iv_clear = 0x7f0a004b;
-		public static final int iv_cover = 0x7f0a0053;
-		public static final int iv_crop = 0x7f0a003d;
-		public static final int iv_crop_photo = 0x7f0a0041;
-		public static final int iv_delete = 0x7f0a0052;
-		public static final int iv_folder_arrow = 0x7f0a004a;
-		public static final int iv_folder_check = 0x7f0a0056;
-		public static final int iv_photo = 0x7f0a0051;
-		public static final int iv_preview = 0x7f0a003c;
-		public static final int iv_rotate = 0x7f0a003e;
-		public static final int iv_source_photo = 0x7f0a0040;
-		public static final int iv_take_photo = 0x7f0a003f;
-		public static final int iv_thumb = 0x7f0a0057;
-		public static final int ll_folder_panel = 0x7f0a004f;
-		public static final int ll_gallery = 0x7f0a0044;
-		public static final int ll_title = 0x7f0a0048;
-		public static final int lv_folder_list = 0x7f0a0050;
-		public static final int lv_gallery = 0x7f0a0045;
-		public static final int titlebar = 0x7f0a0039;
-		public static final int tv_choose_count = 0x7f0a004c;
-		public static final int tv_empty_view = 0x7f0a0042;
-		public static final int tv_folder_name = 0x7f0a0054;
-		public static final int tv_indicator = 0x7f0a0046;
-		public static final int tv_photo_count = 0x7f0a0055;
-		public static final int tv_sub_title = 0x7f0a0049;
-		public static final int tv_title = 0x7f0a003b;
-		public static final int vp_pager = 0x7f0a0047;
+		public static final int fab_crop = 0x7f0b0043;
+		public static final int fab_label = 0x7f0b0000;
+		public static final int fab_ok = 0x7f0b004e;
+		public static final int gv_photo_list = 0x7f0b004d;
+		public static final int iv_back = 0x7f0b003a;
+		public static final int iv_check = 0x7f0b0058;
+		public static final int iv_clear = 0x7f0b004b;
+		public static final int iv_cover = 0x7f0b0053;
+		public static final int iv_crop = 0x7f0b003d;
+		public static final int iv_crop_photo = 0x7f0b0041;
+		public static final int iv_delete = 0x7f0b0052;
+		public static final int iv_folder_arrow = 0x7f0b004a;
+		public static final int iv_folder_check = 0x7f0b0056;
+		public static final int iv_photo = 0x7f0b0051;
+		public static final int iv_preview = 0x7f0b003c;
+		public static final int iv_rotate = 0x7f0b003e;
+		public static final int iv_source_photo = 0x7f0b0040;
+		public static final int iv_take_photo = 0x7f0b003f;
+		public static final int iv_thumb = 0x7f0b0057;
+		public static final int ll_folder_panel = 0x7f0b004f;
+		public static final int ll_gallery = 0x7f0b0044;
+		public static final int ll_title = 0x7f0b0048;
+		public static final int lv_folder_list = 0x7f0b0050;
+		public static final int lv_gallery = 0x7f0b0045;
+		public static final int titlebar = 0x7f0b0039;
+		public static final int tv_choose_count = 0x7f0b004c;
+		public static final int tv_empty_view = 0x7f0b0042;
+		public static final int tv_folder_name = 0x7f0b0054;
+		public static final int tv_indicator = 0x7f0b0046;
+		public static final int tv_photo_count = 0x7f0b0055;
+		public static final int tv_sub_title = 0x7f0b0049;
+		public static final int tv_title = 0x7f0b003b;
+		public static final int vp_pager = 0x7f0b0047;
 	}
 	public static final class layout {
 		public static final int gf_activity_photo_edit = 0x7f030008;
@@ -87,28 +87,28 @@ public final class R {
 		public static final int gf_adapter_preview_viewpgaer_item = 0x7f03000e;
 	}
 	public static final class string {
-		public static final int all_photo = 0x7f070000;
-		public static final int crop_fail = 0x7f070001;
-		public static final int crop_suc = 0x7f070002;
-		public static final int edit_letoff_photo_format = 0x7f070003;
-		public static final int empty_sdcard = 0x7f070004;
-		public static final int folder_photo_size = 0x7f070005;
-		public static final int gallery = 0x7f070006;
-		public static final int maxsize_zero_tip = 0x7f070007;
-		public static final int no_photo = 0x7f070008;
-		public static final int open_gallery_fail = 0x7f070009;
-		public static final int permissions_denied_tips = 0x7f07000a;
-		public static final int permissions_tips_gallery = 0x7f07000b;
-		public static final int photo_crop = 0x7f07000c;
-		public static final int photo_edit = 0x7f07000d;
-		public static final int photo_list_empty = 0x7f07000e;
-		public static final int please_reopen_gf = 0x7f07000f;
-		public static final int preview = 0x7f070010;
-		public static final int saving = 0x7f070011;
-		public static final int select_max_tips = 0x7f070012;
-		public static final int selected = 0x7f070013;
-		public static final int take_photo_fail = 0x7f070014;
-		public static final int waiting = 0x7f070015;
+		public static final int all_photo = 0x7f080000;
+		public static final int crop_fail = 0x7f080001;
+		public static final int crop_suc = 0x7f080002;
+		public static final int edit_letoff_photo_format = 0x7f080003;
+		public static final int empty_sdcard = 0x7f080004;
+		public static final int folder_photo_size = 0x7f080005;
+		public static final int gallery = 0x7f080006;
+		public static final int maxsize_zero_tip = 0x7f080007;
+		public static final int no_photo = 0x7f080008;
+		public static final int open_gallery_fail = 0x7f080009;
+		public static final int permissions_denied_tips = 0x7f08000a;
+		public static final int permissions_tips_gallery = 0x7f08000b;
+		public static final int photo_crop = 0x7f08000c;
+		public static final int photo_edit = 0x7f08000d;
+		public static final int photo_list_empty = 0x7f08000e;
+		public static final int please_reopen_gf = 0x7f08000f;
+		public static final int preview = 0x7f080010;
+		public static final int saving = 0x7f080011;
+		public static final int select_max_tips = 0x7f080012;
+		public static final int selected = 0x7f080013;
+		public static final int take_photo_fail = 0x7f080014;
+		public static final int waiting = 0x7f080015;
 	}
 	public static final class styleable {
 		public static final int[] GFFloatingActionButton = { 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012 };

@@ -10,5 +10,9 @@ package com.lazy.android;
 public final class Manifest {
     public static final class permission {
         public static final String FLASHLIGHT="android.permission.FLASHLIGHT";
+        /**  极光推送需要的权限开始 
+ Required 
+         */
+        public static final String JPUSH_MESSAGE="com.lazy.android.permission.JPUSH_MESSAGE";
     }
 }

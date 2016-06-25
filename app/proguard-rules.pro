@@ -526,8 +526,7 @@ public <methods>;
 	public <methods>;
 	native <methods>;
 }
-#--------------------环信
-#---------------------------
+#--------------------环信---------------------------
 -keep class com.easemob.** {*;}
 -keep class org.jivesoftware.** {*;}
 -keep class org.apache.** {*;}

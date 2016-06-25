@@ -109,6 +109,8 @@ public class Logger implements ILogger {
 		doLog(Log.ERROR, msg, e);
 	}
 
+
+
 	/**
 	 * 
 	 */

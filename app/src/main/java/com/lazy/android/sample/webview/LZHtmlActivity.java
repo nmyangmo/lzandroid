@@ -42,6 +42,8 @@ public class LZHtmlActivity extends LZBaseActivity {
 		mCommonHead.setMiddleTitle("原生APP和html交互");
 	}
 
+
+
 	// webView与js交互代码
 	private void showWebView(){
 		try {
@@ -110,37 +112,6 @@ public class LZHtmlActivity extends LZBaseActivity {
 	private Object getHtmlObject(){
 
 		Object insertObj = new Object(){
-
-			@JavascriptInterface
-			public String HtmlcallJava(){
-				return "Html call Java";
-			}
-
-			@JavascriptInterface
-			public String HtmlcallJava2(final String param){
-				return "Html call Java : " + param;
-			}
-
-
-			@JavascriptInterface
-			public void JavacallHtml(){
-				runOnUiThread(new Runnable() {
-					@Override
-					public void run() {
-						mWebView.loadUrl("javascript: showFromHtml()");
-					}
-				});
-			}
-
-			@JavascriptInterface
-			public void JavacallHtml2(){
-				runOnUiThread(new Runnable() {
-					@Override
-					public void run() {
-						mWebView.loadUrl("javascript: showFromHtml2('IT-homer blog')");
-					}
-				});
-			}
 
 
 			@JavascriptInterface

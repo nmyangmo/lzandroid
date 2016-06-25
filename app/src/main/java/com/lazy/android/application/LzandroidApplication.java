@@ -22,6 +22,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
+import cn.jpush.android.api.JPushInterface;
+
 public class LzandroidApplication extends Application {
     private final static String TAG = "LzandroidApplication";
     private static Context mContext = null;
@@ -52,6 +54,9 @@ public class LzandroidApplication extends Application {
 //        初始化umeng第三方
         initUmeng();
 
+//        初始化极光推送
+        initJpush();
+
 
         mMainActivityId = 0;
         mActivitys = new HashMap<Long, Activity>();
@@ -77,7 +82,14 @@ public class LzandroidApplication extends Application {
 //        DataServiceManager.getInstance(mContext);
     }
 
-//    umeng初始化
+
+//    极光推送初始化
+    private void initJpush() {
+        JPushInterface.setDebugMode(true);
+        JPushInterface.init(this);
+    }
+
+    //    umeng初始化
     private void initUmeng() {
         MobclickAgent. startWithConfigure(new MobclickAgent.UMAnalyticsConfig(
             this,

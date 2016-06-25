@@ -8,6 +8,7 @@ import com.lazy.android.R;
 import com.lazy.android.basefunc.LZPay.AlipayActivity;
 import com.lazy.android.basefunc.LZPay.WxpayActivity;
 import com.lazy.android.basefunc.LZRecord.RecordMainActivity;
+import com.lazy.android.sample.jpush.JpushIndexActivity;
 import com.lazy.android.sample.webview.LZHtmlActivity;
 import com.lazy.android.sample.demo.ADemoIndexActivity;
 import com.lazy.android.baseui.base.LZBaseActivity;
@@ -78,6 +79,12 @@ public class SampleIndexActivity extends LZBaseActivity {
 	@Event(R.id.takephoto)
 	private void takephotoEvent(View view){
 		startActivity(new Intent(this, SampleTakePhotoActivity.class));
+	}
+
+//	极光推送
+	@Event(R.id.jiguang)
+	private void jiguangEvent(View v){
+		startActivity(new Intent(this, JpushIndexActivity.class));
 	}
 
 
