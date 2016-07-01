@@ -16,16 +16,24 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzrecorder_change_view.png"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_back_sel.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_back_sel.png"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lz_bg_movie_add_shoot_bak.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lz_bg_movie_add_shoot_bak.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzrecorder_flashlight_on.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzrecorder_flashlight_on.png"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_gf_clear.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-mdpi/ic_gf_clear.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzrecorder_flashlight_on.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzrecorder_flashlight_on.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_bg_loading_dialog_shape.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_bg_loading_dialog_shape.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_gf_back.png",
@@ -34,6 +42,18 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lztakephoto_action_repeat.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lztakephoto_action_repeat.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzscan_ic_my_returns_arrow.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzscan_ic_my_returns_arrow.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-mdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzscan_rescan_shape_button.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzscan_rescan_shape_button.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_gf_done.png",
@@ -64,8 +84,28 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lztakephoto_action_crop.png"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzscan_scanning_line.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzscan_scanning_line.png"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzrecorder_play_big.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzrecorder_play_big.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_xiangce.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_xiangce.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/map_location.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/map_location.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_icon_ok.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_icon_ok.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_loading_dialog_progressbar.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_loading_dialog_progressbar.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/__leak_canary_icon.png",
@@ -76,12 +116,36 @@
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-mdpi/ic_gf_camera.png"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_light_nor.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_light_nor.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_qrcode_g_gallery.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_qrcode_g_gallery.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_qrcode_ic_back.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_qrcode_ic_back.xml"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lztakephoto_action_camera.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lztakephoto_action_camera.png"
     },
     {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_light_sel.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_light_sel.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_back_nor.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_back_nor.png"
+    },
+    {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/gf_ic_preview.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable-mdpi/gf_ic_preview.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_qrcode_s_flashgun.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_qrcode_s_flashgun.xml"
     },
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lztakephoto_action_previous_item.png",
@@ -94,5 +158,17 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/lzrecorder_flashlight_off.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/lzrecorder_flashlight_off.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/scan2code_icon_xiangce_sel.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/scan2code_icon_xiangce_sel.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_icon_error.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_icon_error.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/shouquan_iloading_progress.png",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable-mdpi/shouquan_iloading_progress.png"
     }
 ]

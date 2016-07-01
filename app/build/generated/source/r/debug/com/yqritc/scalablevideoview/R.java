@@ -39,7 +39,7 @@ public final class R {
 		public static final int leftCenterCrop = 0x7f0b001a;
 		public static final int leftTop = 0x7f0b001b;
 		public static final int leftTopCrop = 0x7f0b001c;
-		public static final int middle = 0x7f0b0147;
+		public static final int middle = 0x7f0b0172;
 		public static final int none = 0x7f0b001d;
 		public static final int rightBottom = 0x7f0b001e;
 		public static final int rightBottomCrop = 0x7f0b001f;
@@ -47,7 +47,7 @@ public final class R {
 		public static final int rightCenterCrop = 0x7f0b0021;
 		public static final int rightTop = 0x7f0b0022;
 		public static final int rightTopCrop = 0x7f0b0023;
-		public static final int search_button = 0x7f0b014f;
+		public static final int search_button = 0x7f0b017a;
 		public static final int startInside = 0x7f0b0024;
 		public static final int title = 0x7f0b0084;
 	}

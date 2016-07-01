@@ -8,7 +8,10 @@ import com.lazy.android.R;
 import com.lazy.android.basefunc.LZPay.AlipayActivity;
 import com.lazy.android.basefunc.LZPay.WxpayActivity;
 import com.lazy.android.basefunc.LZRecord.RecordMainActivity;
+import com.lazy.android.sample.baidumap.BaidumapInitActivity;
+import com.lazy.android.sample.baidumap.SampleBaidumapIndexActivity;
 import com.lazy.android.sample.jpush.JpushIndexActivity;
+import com.lazy.android.sample.scan.SampleScanIndexActivity;
 import com.lazy.android.sample.webview.LZHtmlActivity;
 import com.lazy.android.sample.demo.ADemoIndexActivity;
 import com.lazy.android.baseui.base.LZBaseActivity;
@@ -102,6 +105,19 @@ public class SampleIndexActivity extends LZBaseActivity {
 	private void alipayEvent(View view){
 		ToastShow("请配置服务器的支付宝订单签名地址信息");
 //		startActivity(new Intent(this, AlipayActivity.class));
+	}
+
+
+//	二维码生成扫描
+	@Event(R.id.scan)
+	private void scanEvent(View view){
+		startActivity(new Intent(this, SampleScanIndexActivity.class));
+	}
+
+//	百度地图初始化
+	@Event(R.id.baidumap)
+	private  void baidumap_Event(View view){
+		startActivity(new Intent(this, SampleBaidumapIndexActivity.class));
 	}
 
 

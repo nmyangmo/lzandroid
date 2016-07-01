@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.WindowManager;
 
 
+import com.baidu.mapapi.SDKInitializer;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.R;
 import com.lazy.android.basefunc.LZUtils.UtilsCrash;
@@ -57,6 +58,8 @@ public class LzandroidApplication extends Application {
 //        初始化极光推送
         initJpush();
 
+//        初始化百度地图
+        initBaidumap();
 
         mMainActivityId = 0;
         mActivitys = new HashMap<Long, Activity>();
@@ -82,8 +85,15 @@ public class LzandroidApplication extends Application {
 //        DataServiceManager.getInstance(mContext);
     }
 
+//    初始化百度地图
+    private void initBaidumap() {
+        //在使用SDK各组件之前初始化context信息，传入ApplicationContext
+        //注意该方法要再setContentView方法之前实现
+        SDKInitializer.initialize(getApplicationContext());
+    }
 
-//    极光推送初始化
+
+    //    极光推送初始化
     private void initJpush() {
         JPushInterface.setDebugMode(true);
         JPushInterface.init(this);

@@ -86,6 +86,39 @@
         android:name="android.hardware.camera.front"
         android:required="false" />
 
+    <!-- 百度地图需要的权限开始 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 百度定位 -->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 百度地图需要的权限结束 -->
+
+
     <!-- 极光推送需要的权限开始 -->
     <!-- Required -->
     <permission
@@ -163,6 +196,30 @@
         <activity android:name="com.lazy.android.sample.demo.ADemoIndexActivity" />
         <!-- SurfaceView类 -->
         <activity android:name="com.lazy.android.sample.demo.DemoSurfaceViewActivity" />
+
+        <!-- 二维码模块首页 -->
+        <activity android:name="com.lazy.android.sample.scan.SampleScanIndexActivity" />
+
+        <!-- 百度地图开始 -->
+        <activity android:name="com.lazy.android.sample.baidumap.SampleBaidumapIndexActivity" />
+        <activity android:name="com.lazy.android.sample.baidumap.BaidumapInitActivity" />
+        <activity android:name="com.lazy.android.sample.baidumap.BaidumapSearchActivity" />
+        <activity android:name="com.lazy.android.sample.baidumap.BaidumapRoadSearchActivity" />
+        <activity android:name="com.lazy.android.sample.baidumap.BaidumapLocationActivity" />
+        <!-- 定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        <!-- 百度地图结束 -->
+
+
+        <!-- 二维码生成页面 -->
+        <activity android:name="com.lazy.android.basefunc.LZScan.ScanCreateActivity" />
+
+        <!-- 扫描二维码页面 -->
+        <activity android:name="com.lazy.android.basefunc.LZScan.ScanCommonActivity" />
 
         <!-- &lt;!&ndash;视频录制&ndash;&gt; -->
         <!-- <activity -->
@@ -598,6 +655,13 @@
             android:value="f510750726fb9ed910378aaa" />
 
         <!-- ====================================极光推送结束==================================== -->
+
+
+        <!-- 百度地图开始 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="8C4aFDt2LrTK7jkoSvsBFcmMVTfnscO6" />
+        <!-- 百度地图结束 -->
 
         <activity
             android:name="cn.finalteam.galleryfinal.PhotoSelectActivity"

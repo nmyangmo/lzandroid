@@ -23,8 +23,8 @@ public final class R {
 		public static final int camera_focus_area_size = 0x7f060003;
 	}
 	public static final class drawable {
-		public static final int ms_smallvideo_icon = 0x7f02003a;
-		public static final int ms_video_focus_icon = 0x7f02003b;
+		public static final int ms_smallvideo_icon = 0x7f02003f;
+		public static final int ms_video_focus_icon = 0x7f020040;
 	}
 	public static final class styleable {
 		public static final int[] CameraPreviewView = { 0x7f010002, 0x7f010003 };

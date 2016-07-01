@@ -15,8 +15,19 @@ android {
         exclude 'META-INF/LICENSE'
         exclude 'META-INF/NOTICE.txt'
         exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/maven/plugin.xml'
     }
 
+//    debug带正式签名
+    signingConfigs {
+        release {
+            storeFile file("lazy")
+            storePassword "lazylazy"
+            keyAlias "android"
+            keyPassword "androidandroid"
+        }
+    }
 
 
     buildTypes {
@@ -24,7 +35,7 @@ android {
             // 不显示Log
             buildConfigField "boolean", "LOG_DEBUG", "false"
             //混淆
-            minifyEnabled   true
+            minifyEnabled true
             //Zipalign优化
             zipAlignEnabled true
             // 移除无用的resource文件
@@ -32,6 +43,8 @@ android {
 //            runProguard true
             //引用混淆配置文件
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            signingConfig signingConfigs.release   //    debug带正式签名
 
         }
 
@@ -42,6 +55,8 @@ android {
             minifyEnabled false
             zipAlignEnabled false
             shrinkResources false
+
+            signingConfig signingConfigs.release  //    debug带正式签名
         }
     }
 }
@@ -77,4 +92,19 @@ dependencies {
     compile 'com.umeng.analytics:analytics:latest.integration'
     //    testCompile 'junit:junit:4.10'
     compile files('libs/jpush-android-2.1.6.jar')
+    //    二维码生成和扫描
+    compile files('libs/zxing.jar')
+    //    百度基础地图包
+    //    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/baidumapapi_map_v4_0_0.jar')
+    compile files('libs/baidumapapi_radar_v4_0_0.jar')
+    compile files('libs/baidumapapi_cloud_v4_0_0.jar')
+    compile files('libs/baidumapapi_search_v4_0_0.jar')
+    compile files('libs/baidumapapi_base_v4_0_0.jar')
+    compile files('libs/baidumapapi_util_v4_0_0.jar')
+    //    compile files('libs/IndoorscapeAlbumPlugin.jar')
+    //    compile files('libs/httpmime-4.1.2.jar')
+    compile files('libs/javacpp.jar')
+    compile files('libs/javacv.jar')
+    compile files('libs/baidumapapi_locSDK_6.13.jar')
 }

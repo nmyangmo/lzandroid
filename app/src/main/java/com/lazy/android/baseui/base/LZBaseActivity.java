@@ -306,7 +306,7 @@ public class LZBaseActivity extends FragmentActivity implements LZHttpIProtocolC
         }
     }
 
-//
+
 //    //百度定位位置,定位5秒
 //    public void BaiduMapLocation(final Boolean setin) {
 //        new BaiduMapHelper(getApplicationContext(),new BDLocationListener() {

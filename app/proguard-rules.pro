@@ -442,7 +442,11 @@
 -dontskipnonpubliclibraryclasses
 -ignorewarnings
 
--keep class com.baidu.** { *; }
+#--------------百度地图混淆规则开始--------------
+-keep class com.baidu.** {*;}
+-keep class vi.com.** {*;}
+-dontwarn com.baidu.**
+#--------------百度地图混淆规则结束--------------
 -keep class com.alibaba.fastjson.** { *; }
 
 -keepclassmembers class * {

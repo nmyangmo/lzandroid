@@ -102,5 +102,9 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_09.png",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_09.png"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_border_round.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_round.xml"
     }
 ]

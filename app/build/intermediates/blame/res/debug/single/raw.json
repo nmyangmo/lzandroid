@@ -2,5 +2,9 @@
     {
         "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/raw/keep.xml",
         "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/raw/keep.xml"
+    },
+    {
+        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/raw/beep.ogg"
     }
 ]
