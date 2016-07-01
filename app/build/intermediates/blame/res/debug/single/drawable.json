@@ -1,110 +1,110 @@
 [
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_border_main_bottom.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_main_bottom.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_arrow_right.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_arrow_right.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_07.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_07.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_11.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_11.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/__leak_canary_toast_background.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable/__leak_canary_toast_background.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_arrow_left.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_05.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_05.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/xb_border_white_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/xb_border_white_bottom.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_border_white_bottom.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_white_bottom.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_03.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_03.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_bottom.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/xb_shopcenter_shopcar.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/xb_shopcenter_shopcar.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_bfbfbf.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_bottom_bfbfbf.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_button_on.9.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_button_on.9.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_down_arrow.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/pulltorefresh_down_arrow.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_up_arrow.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/pulltorefresh_up_arrow.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_arrow_left.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_border_bottom.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_button_on.9.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_button_on.9.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_01.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_01.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_border_white_top.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_white_top.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_border_top_ff0000.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_border_top_ff0000.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_up_arrow.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/pulltorefresh_up_arrow.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_07.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_07.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_toast_bg_bak.9.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_toast_bg_bak.9.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/bg_gf_crop_texture.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable/bg_gf_crop_texture.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_01.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_01.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_shopcenter_shopcar.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_shopcenter_shopcar.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/xb_border_top.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/xb_border_top.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_arrow_right.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_arrow_right.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/xb_border_main_bottom.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/xb_border_main_bottom.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_custom_alert_dialog_bg_bak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_custom_alert_dialog_bg_bak.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/xb_border_white_top.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/xb_border_white_top.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_11.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_11.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_09.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_09.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_03.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_03.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/pulltorefresh_down_arrow.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/pulltorefresh_down_arrow.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/bg_gf_crop_texture.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/drawable/bg_gf_crop_texture.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_border_round.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_border_round.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/logo.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/logo.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/progress_load_05.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/progress_load_05.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left_blue.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_arrow_left_blue.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_border_bottom_bfbfbf.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_border_bottom_bfbfbf.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_border_top_ff0000.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_top_ff0000.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_simpledialog_bg_bak.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_simpledialog_bg_bak.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/xb_border_top.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/xb_border_top.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/__leak_canary_toast_background.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable/__leak_canary_toast_background.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_simpledialog_bg_bak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_simpledialog_bg_bak.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_toast_bg_bak.9.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_toast_bg_bak.9.png"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/progress_load_09.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/progress_load_09.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_custom_alert_dialog_bg_bak.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_custom_alert_dialog_bg_bak.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable/lz_border_round.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/drawable/lz_border_round.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable/lz_arrow_left_blue.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/drawable/lz_arrow_left_blue.png"
     }
 ]

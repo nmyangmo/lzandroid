@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/chenglei/android代码/lzAndroid_bak/alib_slidingmenulibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "outputFile": "/Users/chenglei/android代码/lzAndroid/alib_slidingmenulibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 941
                 },
                 "from": {
-                    "file": "/Users/chenglei/android代码/lzAndroid_bak/alib_slidingmenulibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "file": "/Users/chenglei/android代码/lzAndroid/alib_slidingmenulibrary/build/intermediates/bundles/debug/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

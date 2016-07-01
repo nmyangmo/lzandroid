@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/chenglei/android代码/lzAndroid_bak/alib_WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "outputFile": "/Users/chenglei/android代码/lzAndroid/alib_WXLikeVideoRecorderLib/build/intermediates/res/merged/androidTest/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 534
                 },
                 "from": {
-                    "file": "/Users/chenglei/android代码/lzAndroid_bak/alib_WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "file": "/Users/chenglei/android代码/lzAndroid/alib_WXLikeVideoRecorderLib/build/intermediates/bundles/debug/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

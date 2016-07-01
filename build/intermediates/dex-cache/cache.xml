@@ -1,2 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_0481ee3dd7d6806e25d56a8437b537a62bb11fd3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/QQlogin_open_sdk_r5509.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/QQlogin_open_sdk_r5509_2f1085328f2780d4742ce588564bfc7f765335fa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/WBlogin_weiboSDKCore_3.1.4.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/WBlogin_weiboSDKCore_3.1.4_e7ee32630e0185d930c0e876ffc11b53a7d7c48d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_dadf5fae82db6b3c946bdaaaf1ce9cd9ab58c020/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.3.1_b753b07fbec8f11ee1d990021ddfc578b8613c28/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/lzAndroid/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/ffmpeg.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="09b5bee71af3436542eca3c036479b607f38d2cc">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/8/ffmpeg_d53ceec8810078dca191a0ecc6a797582e4e33ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/jpush-android-2.1.6.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="a0cb8ca37f3ba17bd6c9b68291072a1055debfb5">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android-2.1.6_ed845db68790975101b688c64f66183a6ac82958/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_0c9d8afaf4cd1ae5fffe1890c1562d19c981d2d4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/WBlogin_SocialSDK_Sina.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="ada8b8d7d1557f75a01bd1f7ec5e7738291cf2b1">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/WBlogin_SocialSDK_Sina_e32b7aad5be0cbaceca6c10494d66123cb622847/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/toolsfinal/1.1.5/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="966da5b6a8bfdef0bfc660e349f8765dde5cb6f3">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/cn.finalteam-toolsfinal-1.1.5_d1376450864c5cc7ec59f1b364deadd4eacff972/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="2e9029354d9b3b1a18964da663912827c193faeb">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/SocialSDK_WeiXin_2_0ac593555af37571304f4774f9b574ab9583a7fb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_base_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="dc207932ddfb65566a157ca311a6a6dffc7fccab">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_base_v4_0_0_d3f82996d7b0fb07b523b3bae46dc5d14d184d96/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-1.3_4bf402397648b419b0282c780b06a6fc84e8a445/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/QQlogin_SocialSDK_QQZone_3.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="6d046bb00be56dd658b1a815632b74a8ddb06266">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/QQlogin_SocialSDK_QQZone_3_505cca00285f4251aff1c4b3b8c36d4e928ff18a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="11acfe0232eec9939af8d0ac7059eab2532f1776">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6b5707efa770f7723eaad8097835f33465527f1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/umeng_social_sdk.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="c4bb8895b0d9447a46921501e5b6c75afa26ca62">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/umeng_social_sdk_85390dafc2c55e1d3c9649a052c6344f0a5291cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.8/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="73d788f94f283a9bdbfc0497cb28e33b42cbf2df">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.xutils-xutils-3.3.8_2c7a87c2e4a9dedac0f0aff76ce07b4aa767afd7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.yqritc/android-scalablevideoview/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.yqritc-android-scalablevideoview-1.0.1_84aef472dfc886acba4eadaa6f28761f846e8408/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="3b4bb8881e344fc693fc029afe927309803554e2">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3ac87fe1b2147a8cc2c06a4e2a179e6a292a608d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_1dad7e2137ab914cb5915ecd53edf8aa2b402f5f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_locSDK_6.13.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_locSDK_6.13_d8bba76544d1bfdcaffbb8e2a5fb162967ca1fb8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_cloud_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="e2aca735ca322917c5ee5fd40d663773391cf0a6">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_cloud_v4_0_0_df5fb54c1e94f581bf12a5d27ed5df86b2730cd0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/alipaySdk-20160427.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="654cbff4ec71960a04fa8784648a41b96e1f9566">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/alipaySdk-20160427_d6aba740b75878d17be08a6778e58726f6591d55/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/SocialSDK_WeiXin_1_c303c983d3961ccc4cb7ab6772977fcf19297239/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/javacpp.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="ff8f2a518e524ae8de093d6556fc21a6ab8f05b2">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/javacpp_705e4832c1f12dc0ed715ceb4fbab10d3cf2b02a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_util_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="1e9069435803e5a4f32dc429906def33a95aaf17">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_util_v4_0_0_8f02c461a938d7c96a9b922a942a5381c5ce5508/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_radar_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="81b00e6e2da11e12554d8cbf0acc23627fd1225b">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_radar_v4_0_0_17a1369cbe23a6cdc0ceeed060d5bcdcef7eb572/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/QQlogin_mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/QQlogin_mta-sdk-1.6.2_88029fd1c23a658b8143ec3d7fd117ed5b810639/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/zxing.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_f23938bdda1907bd7cf80e7f9f6a976672b93dbd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.3.1_daa70cdb6eaf5624a9422cadabaca3198c9e84e7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="c74f0952cfb481882d8cedf4ca9f3c60289a3301">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/cn.finalteam-galleryfinal-1.4.8.7_cc0056f398f1626fda4e8ff986ffa1ffd57e2b32/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.3.1_4380d2381ccb467fbac2e935522e2c01f8db1761/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_f21f3c17dd06cb6f1e7df4dc4b966015390d3dac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_map_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="db4a1025ee9c6f95747aab4a69baa1391534d80e">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_map_v4_0_0_ec3b076f7a1fc5038dbbb35413ba86bbe46f6555/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/lzAndroid/alib_WXLikeVideoRecorderLib/unspecified/jars/libs/javacpp.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="2a939dcf5d992c85fde58ccf53b513567c3f4cf5">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/8/javacpp_614b4585c44d1ec7198ba64f64efc80b6053776b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.1/aab9085bca0c26dcb9cb11837a5f5e22cc102a5e/analytics-6.0.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.0.1_2bc8ea59a52db8995ead2ef17ae618a3f88eb28f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_4de15539f125fea7642ff0c0ec2cf16274654f15/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/baidumapapi_search_v4_0_0.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="08f97ee0e35fb17d405d29bf62eef305faffffcc">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/baidumapapi_search_v4_0_0_52406705313c3c775e560c95b16efbe1c8bf0706/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chenglei/android代码/lzAndroid/app/libs/javacv.jar"
+        jumboMode="true"
+        revision="21.1.1"
+        sha1="310927e25b52136954b65608f341dfd5e5ad9d64">
+        <dex dex="/Users/chenglei/android代码/lzAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/javacv_92f0f8bfa15c9861a2b995ec4fb5312ef52cfd82/classes.dex" />
+    </item>
+
+</items>

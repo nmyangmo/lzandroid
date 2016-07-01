@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "outputFile": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 101
                 },
                 "from": {
-                    "file": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

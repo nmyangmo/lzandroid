@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v11/__leak_canary_notification.png",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable-xxxhdpi-v11/__leak_canary_notification.png"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v11/__leak_canary_notification.png",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/drawable-xxxhdpi-v11/__leak_canary_notification.png"
     }
 ]

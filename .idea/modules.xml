@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/alib_WXLikeVideoRecorderLib/alib_WXLikeVideoRecorderLib.iml" filepath="$PROJECT_DIR$/alib_WXLikeVideoRecorderLib/alib_WXLikeVideoRecorderLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/alib_slidingmenulibrary/alib_slidingmenulibrary.iml" filepath="$PROJECT_DIR$/alib_slidingmenulibrary/alib_slidingmenulibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lzAndroid_bak.iml" filepath="$PROJECT_DIR$/lzAndroid_bak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lzAndroid.iml" filepath="$PROJECT_DIR$/lzAndroid.iml" />
     </modules>
   </component>
 </project>

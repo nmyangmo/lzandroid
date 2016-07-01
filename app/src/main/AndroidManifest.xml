@@ -264,7 +264,6 @@
             android:screenOrientation="portrait"/>
 
 
-        <activity android:name=".basefunc.LZAlipay.AlipayDemoActivity"/>
 
         <!-- ########################### umeng需要的activity注册开始 ########################### -->
         <!--微信登录回调activity平台-->
@@ -333,172 +332,7 @@
 
 
         <!--<activity name>-->
-        <!--====================================sample模块页面结束====================================-->
 
-        <!--====================================小白养宠模块页面开始====================================-->
-
-
-        <activity android:name=".xiaobai.ui.main.activity.InitActivity"
-                  android:screenOrientation="portrait">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity android:name=".xiaobai.ui.register.activity.Forhtml_NewTelnumActivity"
-                  android:screenOrientation="portrait"
-                  android:theme="@style/lz_CustomAlertDialog">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.main.activity.MainIndexActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.LoginActivity"
-            android:screenOrientation="portrait">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
-
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.RegisterActivity"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.ForgetPasswordActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.SmscodeLoginActivity"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.NewTelnumActivity"
-            android:screenOrientation="portrait">
-
-
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.register.activity.EditPasswordActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.AddressEditActivity"
-            android:screenOrientation="portrait">
-
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.main.activity.ShowAddtypeActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-
-
-        <activity
-            android:name=".xiaobai.ui.main.activity.ShowSendActivity"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustPan">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name=".xiaobai.ui.search.SearchActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.common.CommentActivity"
-            android:screenOrientation="portrait">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.pay.PayTypeActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.pay.PayResultActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.PersoninfoSetActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.AddMypetActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.PetinfoSetActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.ShopCenterActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.pay.ShopCarActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.pay.OrderAffirmActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity
-            android:name="com.lazy.android.xiaobai.ui.personSet.SetIndexActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <!--公共webview-->
-        <activity
-            android:name=".xiaobai.ui.common.CommonWebViewActivity"
-            android:screenOrientation="portrait"/>
 
         <!--底部弹出拍照-->
         <activity
@@ -533,12 +367,6 @@
             android:theme="@style/lz_CustomAlertDialog"/>
 
 
-        <!--微信支付-->
-        <activity
-            android:name=".basefunc.LZWxpay.LZWxpayActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/lz_CustomAlertDialog"/>
-
         <!--微信支付回调-->
         <!--必须加下面这句android:exported="true"   否则跳转不过去-->
         <activity
@@ -572,11 +400,9 @@
         </activity>
 
 
-        <service android:name=".xiaobai.ui.register.services.UserinfoService">
 
-        </service>
-        <!--====================================小白养宠模块页面开始====================================-->
 
+        <!--====================================sample模块页面结束====================================-->
 
 
 

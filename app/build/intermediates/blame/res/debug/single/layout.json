@@ -1,414 +1,262 @@
 [
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_alipay_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_alipay_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzpay_wxpya_activitu.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzpay_wxpya_activitu.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_addrooturl_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_addrooturl_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_common_webview_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_common_webview_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_slidingmenu_index_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_slidingmenu_index_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/__leak_canary_heap_dump_toast.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_heap_dump_toast.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_index_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_index_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_adapter_folder_list_item.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_folder_list_item.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecorder_recorder_progress_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecorder_recorder_progress_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_netlist_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_netlist_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzscan_create_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzscan_create_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_baidumap_search_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_baidumap_search_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_shopcar.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_shopcar.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_crumbs_umengshared_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_crumbs_umengshared_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzscan_result_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzscan_result_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_alipay_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_alipay_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_main_showaddtype_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_main_showaddtype_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_umeng_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_umeng_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecorder_global_dialog_tpl.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecorder_global_dialog_tpl.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_crumbs_takephoto_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_crumbs_takephoto_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_activity_left.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_activity_left.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_fragment_bitmapfragment.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_fragment_bitmapfragment.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_fragment_httpfragment.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_fragment_httpfragment.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_fragment_viewfragment.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_fragment_viewfragment.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_slidingmenu_leftlayout.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_slidingmenu_leftlayout.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/demo_surfaceview_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/demo_surfaceview_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_thirdnewtelnum_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_thirdnewtelnum_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_common_head.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_common_head.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_activity_buttonup_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_activity_buttonup_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_crumbs_citypick.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_crumbs_citypick.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_show_send_adapter_type.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_show_send_adapter_type.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_baidumap_location_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_baidumap_location_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_crumbs_takephoto_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_crumbs_takephoto_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/__leak_canary_ref_top_row.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_ref_top_row.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecorder_diyrecorder_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecorder_diyrecorder_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_circleimageview.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_circleimageview.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/a_recorder_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/a_recorder_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_baidumap_init_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_baidumap_init_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_baidumap_search_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_baidumap_search_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_fragment_dbfragment.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_fragment_dbfragment.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_baidumap_roadsearch_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_baidumap_roadsearch_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzscan_create_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzscan_create_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_fragment_bitmapfragment.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_fragment_bitmapfragment.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_adapter_edit_list.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_edit_list.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_forhtml_newtelnum_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_forhtml_newtelnum_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/demo_index_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/demo_index_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_personset_info_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_personset_info_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecorder_recorder_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecorder_recorder_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_personset_mypetinfo_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_personset_mypetinfo_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_custom_load_dialog.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_custom_load_dialog.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_setindex_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_setindex_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_base_lzhttp_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_base_lzhttp_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_activity_main.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_activity_main.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzscan_common_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzscan_common_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecord_recordermain_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecord_recordermain_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/__leak_canary_ref_row.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_ref_row.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/demo_index_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/demo_index_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/a_recorder_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/a_recorder_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_fragment_viewfragment.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_fragment_viewfragment.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecorder_diyrecorder_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecorder_diyrecorder_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_fragment_middle.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_fragment_middle.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_baidumap_roadsearch_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_baidumap_roadsearch_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_common_line_dbdbdb.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_common_line_dbdbdb.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_activity_buttonup_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_activity_buttonup_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecorder_ffmpeg_preview_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecorder_ffmpeg_preview_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_index_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_index_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_adapter_photo_list_item.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_photo_list_item.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_preview.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_preview.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_common_head.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_common_head.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_record_recordactivity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_record_recordactivity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_fragment_right.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_fragment_right.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_baidumap_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_baidumap_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_personset_addressedit_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_personset_addressedit_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_base_lzrecord_base.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_base_lzrecord_base.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_xutils_activity_index.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_xutils_activity_index.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/pull_to_refresh_header_vertical.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_personset_addmypet_activity_bak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_personset_addmypet_activity_bak.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecorder_ffmpeg_preview_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecorder_ffmpeg_preview_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_base_lzrecord_base.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_base_lzrecord_base.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_fragment_httpfragment.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_fragment_httpfragment.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_fragment_left.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_fragment_left.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_pickerdate_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_pickerdate_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_adapter_edit_list.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_edit_list.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_xutils_activity_index.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_xutils_activity_index.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/demo_surfaceview_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/demo_surfaceview_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/__leak_canary_display_leak.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_display_leak.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_select.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_select.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_common_line_dbdbdb.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_common_line_dbdbdb.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pet_search_item.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pet_search_item.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_index_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_index_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/__leak_canary_ref_top_row.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_ref_top_row.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_adapter_photo_list_item.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_photo_list_item.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_umeng_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_umeng_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_slidingmenu_leftlayout.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_slidingmenu_leftlayout.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_crumbs_picker_sex_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_crumbs_picker_sex_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_takephoto_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_takephoto_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_common_webview_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_common_webview_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_custom_hintdialog.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_custom_hintdialog.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_show_send_adapter_image.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_show_send_adapter_image.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_adapter_preview_viewpgaer_item.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_preview_viewpgaer_item.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pay_paysult_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pay_paysult_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecorder_global_dialog_tpl.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecorder_global_dialog_tpl.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_adapter_folder_list_item.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_folder_list_item.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_slidingmenu_index_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_slidingmenu_index_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_custom_load_dialog.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_custom_load_dialog.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_select.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_select.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_preview.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_preview.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lz_crumbs_picker_sex_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lz_crumbs_picker_sex_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_dialog_sendsuccess.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_dialog_sendsuccess.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzscan_index_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzscan_index_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_adapter_preview_viewpgaer_item.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_adapter_preview_viewpgaer_item.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/jpush_webview_layout.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/jpush_webview_layout.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/__leak_canary_leak_row.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_leak_row.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/__leak_canary_leak_row.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_leak_row.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/pull_to_refresh_header_vertical.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecord_play_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecord_play_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_editpwd_activity_bak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_editpwd_activity_bak.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/jpush_popwin_layout.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/jpush_popwin_layout.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecorder_recorder_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecorder_recorder_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_edit.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_edit.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/gf_activity_photo_edit.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/cn.finalteam/galleryfinal/1.4.8.7/res/layout/gf_activity_photo_edit.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/sample_divview_netlist_item.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/sample_divview_netlist_item.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/jpush_webview_layout.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/jpush_webview_layout.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzscan_result_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzscan_result_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_baidumap_location_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_baidumap_location_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecorder_recorder_progress_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecorder_recorder_progress_activity.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pet_search.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pet_search.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/slidingmenumain.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/exploded-aar/lzAndroid/alib_slidingmenulibrary/unspecified/res/layout/slidingmenumain.xml"
     },
     {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzscan_index_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzscan_index_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/jpush_popwin_layout.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/jpush_popwin_layout.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_custom_hintdialog.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_custom_hintdialog.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_fragment_dbfragment.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_fragment_dbfragment.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_base_lzhttp_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_base_lzhttp_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_netlist_item.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_netlist_item.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_init_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_init_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pay_paytype_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pay_paytype_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_pay_paysult_activity_bak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_pay_paysult_activity_bak.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_common_comment_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_common_comment_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_register_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_register_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_show_send_adapter_mypet.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_show_send_adapter_mypet.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzrecord_play_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzrecord_play_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_editpassword_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_editpassword_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_forget_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_forget_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/__leak_canary_heap_dump_toast.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_heap_dump_toast.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_smscodelogin_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_smscodelogin_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_pickerdate_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_pickerdate_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_takephoto_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_takephoto_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_circleimageview.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_circleimageview.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_personset_addmypet_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_personset_addmypet_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_shopcenter_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_shopcenter_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_show_send_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_show_send_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_record_recordactivity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_record_recordactivity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/__leak_canary_ref_row.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_ref_row.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_index_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_index_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/__leak_canary_display_leak.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/res/layout/__leak_canary_display_leak.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_crumbs_umengshared_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_crumbs_umengshared_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_orderaffirm_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_orderaffirm_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lz_crumbs_citypick.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lz_crumbs_citypick.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_newtelnum_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_newtelnum_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_mian_activity_right.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_mian_activity_right.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzscan_common_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzscan_common_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_baidumap_init_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_baidumap_init_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/xb_loginregister_login_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/xb_loginregister_login_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_divview_netlist_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_divview_netlist_activity.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/slidingmenumain.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/exploded-aar/lzAndroid_bak/alib_slidingmenulibrary/unspecified/res/layout/slidingmenumain.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/lzpay_wxpya_activitu.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/lzpay_wxpya_activitu.xml"
-    },
-    {
-        "merged": "/Users/chenglei/android代码/lzAndroid_bak/app/build/intermediates/res/merged/debug/layout/sample_baidumap_activity.xml",
-        "source": "/Users/chenglei/android代码/lzAndroid_bak/app/src/main/res/layout/sample_baidumap_activity.xml"
+        "merged": "/Users/chenglei/android代码/lzAndroid/app/build/intermediates/res/merged/debug/layout/lzrecord_recordermain_activity.xml",
+        "source": "/Users/chenglei/android代码/lzAndroid/app/src/main/res/layout/lzrecord_recordermain_activity.xml"
     }
 ]

@@ -1,31 +1,7 @@
-########################    百度地图开始    ############################
-
-引入了百度地图全功能的开发包,正式项目可以自主删减，以减少安装包大小
-
-引入SO文件列表
-
-armeabi/libapp_BaiduNaviApplib.so
-armeabi/libapp_BaiduPanoramaAppLib.so
-armeabi/libapp_BaiduVIlib.so
-armeabi/libBaiduMapSDK_base_v4_0_0.so
-armeabi/libBaiduMapSDK_cloud_v4_0_0.so
-armeabi/libBaiduMapSDK_map_v4_0_0.so
-armeabi/libBaiduMapSDK_radar_v4_0_0.so
-armeabi/libBaiduMapSDK_search_v4_0_0.so
-armeabi/libBaiduMapSDK_util_v4_0_0.so
-armeabi/libbd_etts.so
-armeabi/libbds.so
-armeabi/libBDSpeechDecoder_V1.so
-armeabi/libcurl.so
-armeabi/libgnustl_shared.so
-armeabi/liblocSDK6a.so
+欢迎围观lzandroid beta版,为了防止重复造轮子，此框架是本人工作中遇到的一部分的常用需求的积累，目前只发布了很少的一部分，希望可以和大家一起慢慢完善，希望将来我们的android开发工程师有需要的时候可以直接把此框架拉出来就用，并且节省项目40%以上的开发时间，由于时间仓促，当前只是BETA版，等洒家觉得成熟了，会发布正式版的。欢迎关注，欢迎提交打包key目录   /key/lazyWEB服务器目录 /key/web/
 
 
-引入jar文件列表
-
-BaiduLBS_Android.jar
-httpmime-4.1.2.jar
-IndoorscapeAlbumPlugin.jar
+— — — — — — — — — — — — —  目录结构开始  — — — — — — — — — — — — —  
+— — — — — — — — — — — — —  目录结构结束  — — — — — — — — — — — — —  欢迎进群交流： 300585952   QQ:187228131另外求一份北京地区安卓开发的工作，目前已离职。
 
 
-########################    百度地图结束    ############################
