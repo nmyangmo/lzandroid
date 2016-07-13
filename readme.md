@@ -29,7 +29,7 @@ WEB服务器目录 /key/web/
 ---
 
 
-![image](http://app.zhuli6.com/lzAndroid/showpic/0.png)
+![image](https://raw.githubusercontent.com/mankind-evolve/lzandroid/master/key/web/showpic/0.png)
 
 
 
