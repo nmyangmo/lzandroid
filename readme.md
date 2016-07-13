@@ -29,7 +29,7 @@ WEB服务器目录 /key/web/
 ---
 
 
-![icon](http://app.zhuli6.com/lzAndroid/showpic/0.png)
+![image](http://app.zhuli6.com/lzAndroid/showpic/0.png)
 
 
 
