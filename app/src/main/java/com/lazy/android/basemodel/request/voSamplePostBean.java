@@ -1,6 +1,6 @@
-package com.lazy.android.LZJavaBean.request;
+package com.lazy.android.basemodel.request;
 
-import com.lazy.android.LZJavaBean.LZBaseVoBean;
+import com.lazy.android.basemodel.LZBaseVoBean;
 
 /**
  * Created by Administrator on 2016/1/26.

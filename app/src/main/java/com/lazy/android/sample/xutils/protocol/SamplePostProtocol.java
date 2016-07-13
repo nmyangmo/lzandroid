@@ -8,7 +8,7 @@ import com.lazy.android.baseprotocol.LZHttpRequestInfo;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.config.ConfigProtocolType;
 import com.lazy.android.config.ConfigStaticType;
-import com.lazy.android.LZJavaBean.request.voSamplePostBean;
+import com.lazy.android.basemodel.request.voSamplePostBean;
 
 /**
  * Created by chenglei on 16/1/22.

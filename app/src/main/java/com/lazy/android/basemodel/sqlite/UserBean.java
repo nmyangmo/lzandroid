@@ -1,6 +1,6 @@
-package com.lazy.android.LZJavaBean.sqlite;
+package com.lazy.android.basemodel.sqlite;
 
-import com.lazy.android.LZJavaBean.LZBaseSqliteBean;
+import com.lazy.android.basemodel.LZBaseSqliteBean;
 
 import org.xutils.db.annotation.Column;
 import org.xutils.db.annotation.Table;

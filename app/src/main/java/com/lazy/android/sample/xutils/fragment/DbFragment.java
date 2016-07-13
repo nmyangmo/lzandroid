@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lazy.android.LZJavaBean.sqlite.UserBean;
+import com.lazy.android.basemodel.sqlite.UserBean;
 import com.lazy.android.R;
 import com.lazy.android.baseui.base.LZBaseFragment;
 import org.xutils.common.util.KeyValue;

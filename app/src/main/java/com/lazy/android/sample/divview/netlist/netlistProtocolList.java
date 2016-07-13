@@ -1,9 +1,8 @@
 package com.lazy.android.sample.divview.netlist;
 
 import android.content.Context;
-import android.util.Log;
 
-import com.lazy.android.basedata.model.LZRefreshListData;
+import com.lazy.android.basemodel.LZRefreshListData;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.baseprotocol.LZHttpProtocolListHandlerBase;
 import com.lazy.android.baseprotocol.LZHttpIProtocolCallback;
@@ -13,8 +12,6 @@ import com.lazy.android.config.ConfigStaticType;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import java.util.ArrayList;
 
 /**
  * Created by Administrator on 2015/5/14.

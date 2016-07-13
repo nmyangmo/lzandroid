@@ -1,4 +1,4 @@
-package com.lazy.android.LZJavaBean;
+package com.lazy.android.basemodel;
 
 import org.xutils.DbManager;
 import org.xutils.common.util.KeyValue;

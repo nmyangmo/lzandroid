@@ -1,8 +1,7 @@
-package com.lazy.android.Handler;
+package com.lazy.android.handler;
 
 import android.os.Handler;
 import android.os.Message;
-import android.view.View;
 import android.widget.Button;
 
 /**

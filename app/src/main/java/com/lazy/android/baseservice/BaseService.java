@@ -1,4 +1,4 @@
-package com.lazy.android.basedata.service;
+package com.lazy.android.baseservice;
 
 import com.lazy.android.application.LzandroidApplication;
 

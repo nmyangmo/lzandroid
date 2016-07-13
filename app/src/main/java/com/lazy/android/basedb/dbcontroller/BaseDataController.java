@@ -14,7 +14,7 @@ import com.lazy.android.config.ConfigSystem;
 import com.lazy.android.basefunc.LZLogger.Logger;
 import com.lazy.android.basefunc.task.ITask;
 import com.lazy.android.basefunc.task.TaskManager;
-import com.lazy.android.basedata.model.LZBaseData;
+import com.lazy.android.basemodel.LZBaseData;
 import com.lazy.android.basedb.provider.LZAndroidDatabase.BaseTable;
 import com.lazy.android.basedb.provider.LZAndroidDatabase.CMBaseTable;
 import com.lazy.android.basedb.utils.DatabaseUtil;

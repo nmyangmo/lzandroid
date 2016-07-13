@@ -1,15 +1,12 @@
 package com.lazy.android.sample.divview.netlist;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lazy.android.R;
-import com.lazy.android.basedata.model.LZRefreshListData;
+import com.lazy.android.basemodel.LZRefreshListData;
 import com.lazy.android.baseprotocol.LZHttpProtocolHandlerBase;
 import com.lazy.android.baseui.adapter.LZAdapter;
 import com.lazy.android.baseui.base.LZBaseActivity;

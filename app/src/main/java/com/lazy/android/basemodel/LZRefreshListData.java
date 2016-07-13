@@ -1,6 +1,5 @@
-package com.lazy.android.basedata.model;
+package com.lazy.android.basemodel;
 
-import com.lazy.android.basedata.model.LZBaseData;
 import com.lazy.android.basedb.dbcontroller.BaseDataController;
 import com.lazy.android.config.ConfigSystem;
 

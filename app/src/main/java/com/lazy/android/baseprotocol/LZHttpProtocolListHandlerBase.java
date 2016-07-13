@@ -3,8 +3,8 @@ package com.lazy.android.baseprotocol;
 import android.content.Context;
 
 
-import com.lazy.android.basedata.model.LZBaseData;
-import com.lazy.android.basedata.model.LZRefreshListData;
+import com.lazy.android.basemodel.LZBaseData;
+import com.lazy.android.basemodel.LZRefreshListData;
 import com.lazy.android.config.ConfigSystem;
 
 import java.util.ArrayList;

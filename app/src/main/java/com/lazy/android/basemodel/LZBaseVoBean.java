@@ -1,4 +1,4 @@
-package com.lazy.android.LZJavaBean;
+package com.lazy.android.basemodel;
 
 import com.lazy.android.basefunc.LZJson.LZJson;
 

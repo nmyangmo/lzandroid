@@ -1,13 +1,9 @@
 package com.lazy.android.sample.divview.netlist;
 
 import com.google.gson.Gson;
-import com.lazy.android.basedata.model.LZBaseData;
-import com.lazy.android.basefunc.LZLogger.Logger;
+import com.lazy.android.basemodel.LZBaseData;
 
-import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.lang.reflect.Type;
 
 /**
  * Created by chenglei on 16/6/17.

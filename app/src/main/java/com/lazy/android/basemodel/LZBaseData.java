@@ -1,7 +1,4 @@
-package com.lazy.android.basedata.model;
-
-import com.lazy.android.LZJavaBean.LZBaseVoBean;
-import com.lazy.android.basefunc.LZJson.LZJson;
+package com.lazy.android.basemodel;
 
 /**
  * @ClassName: BaseData
